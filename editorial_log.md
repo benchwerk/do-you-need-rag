@@ -13,3 +13,5 @@ prior context.
 ## Corrections
 
 - 2026-11-06: the scoring notes named the gift question P7; it is P9.
+- 2026-11-06: demo D1 (a question with no documents) was re-recorded with the expense-limit question (L1); the
+  meeting-invite take came close to the handbook's answer and did not show the point. Every take is kept (`demos/takes.json`).

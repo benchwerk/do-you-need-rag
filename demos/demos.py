@@ -136,8 +136,9 @@ def vector(url):
 CHAT = "You are in a plain chat. You cannot open files or run anything; answer from what the user writes."  # as 007 D1
 
 
-def d1():
-    q = QS["L7"]["question"]
+def d1(qid="L1"):
+    # take 3 uses L1 (a number no model can guess); takes 1-2 used L7 (meeting invites), whose generic answer came close
+    q = QS[qid]["question"]
     env = {k: v for k, v in os.environ.items() if not (k.upper().startswith(("ANTHROPIC_", "CLAUDE_CODE_")) or k.upper() == "CLAUDECODE")}
     args = [os.environ["CLAUDE_BIN"], "-p", "--output-format", "stream-json", "--verbose", "--model", CFG["model"], "--strict-mcp-config",
             "--no-session-persistence", "--disable-slash-commands", "--setting-sources", "", "--tools", "", "--max-turns", "1",
@@ -152,7 +153,7 @@ def d1():
     res = [json.loads(l) for l in cp.stdout.splitlines() if l.startswith("{") and json.loads(l).get("type") == "result"]
     save("D1_no_documents.json", {"question": q, "prompt": "the question alone, no documents, no tools, plain-chat note", "system_append": CHAT, "transcript": t.name, "rc": cp.returncode,
                                   "answer": scrub(res[0].get("result", "")) if res else None, "is_error": res[0].get("is_error") if res else None,
-                                  "expected_from_handbook": QS["L7"]["answer"]})
+                                  "question_id": qid, "expected_from_handbook": QS[qid]["answer"]})
 
 
 if __name__ == "__main__":
@@ -160,4 +161,5 @@ if __name__ == "__main__":
     if cmd == "vector":
         vector(sys.argv[3] if len(sys.argv) > 3 else "http://localhost:6333")
     else:
-        {"size": size, "embed": embed, "rag-miss": rag_miss, "d1": d1}[cmd]()
+        f = {"size": size, "embed": embed, "rag-miss": rag_miss, "d1": d1}[cmd]
+        f(*sys.argv[2:3]) if cmd == "d1" else f()

@@ -76,7 +76,7 @@ passes a threshold or a call fails, and keeps a failed call out of the data; no 
 Each raw record (`raw.jsonl`) holds the answer, token usage, wall time, tool calls, the usage meters and, for RAG, the
 retrieved files and the search time. `streams/` holds every session's stream-json transcript. `bench/run.py` replaces
 the home folder and user name anywhere in the output with `<scrubbed>`; in practice only one start-up field
-(`memory_paths`) contained them. The D1 demo session uses `<home>` the same way. Nothing else is changed. Timestamps in
+(`memory_paths`) contained them. The D1 demo sessions use `<home>` the same way. Nothing else is changed. Timestamps in
 `raw.jsonl` are the machine's local time (UTC+1); the transcripts' own timestamps are UTC.
 
 ## Scoring

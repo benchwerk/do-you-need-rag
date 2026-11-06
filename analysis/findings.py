@@ -180,7 +180,7 @@ f["vector_search"] = vs
 D = ROOT / "demos/out"
 d2 = json.load(open(D / "D2_size.json", encoding="utf-8"))
 f["demos"] = {
-    "D1": {k: json.load(open(D / "D1_no_documents.json", encoding="utf-8"))[k] for k in ("question", "answer", "expected_from_handbook")},
+    "D1": {k: json.load(open(D / "D1_no_documents.json", encoding="utf-8"))[k] for k in ("question_id", "question", "answer", "expected_from_handbook")},
     "D2_size_check": {"command_powershell": d2["command_powershell"],
                       "rows": [dict(set=r["set"], printed=int(r["powershell_prints"]), real=r["real_paste_tokens"],
                                     over_real_pct=round((int(r["powershell_prints"]) / r["real_paste_tokens"] - 1) * 100, 1) if r["real_paste_tokens"] else None) for r in d2["rows"]]},

@@ -1,0 +1,10 @@
+{
+ "question": "How far in advance do we recommend you send meeting invites?",
+ "prompt": "the question alone, no documents, no tools, plain-chat note",
+ "system_append": "You are in a plain chat. You cannot open files or run anything; answer from what the user writes.",
+ "transcript": "D1-no-documents_2026-11-06T18-35-20.jsonl",
+ "rc": 0,
+ "answer": "I don't have a policy for your team or organization, and nothing in this session mentions one, so I can't say what \"we\" recommend. If there's an internal guideline, it would be in an employee handbook or wiki, which I can't see from here.\n\nThese are common rules of thumb:\n\n- **Internal, routine meetings:** at least 24 hours ahead, ideally 2-3 business days.\n- **Larger meetings or workshops (5+ people, or ones that need prep):** 1-2 weeks.\n- **External or cross-time-zone meetings:** 1-2 weeks, since scheduling takes more back-and-forth.\n- **Executives or hard-to-schedule attendees:** 2-4 weeks, or whatever their assistants need.\n- **Urgent meetings:** send as soon as possible and flag the urgency in the title or a message.\n\nWhatever the lead time, include an agenda, a clear purpose, and any pre-reading in the invite.\n\nIf you paste your team's guideline here, I can help you summarize it or turn it into a short reminder or template.",
+ "is_error": false,
+ "expected_from_handbook": "72 hours (minimum 24 hours)"
+}

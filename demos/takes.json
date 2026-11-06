@@ -2,13 +2,18 @@
  "rule": "the first take that shows what the demo describes is used; every take is kept",
  "used": {
   "D1 without documents": {
-   "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T18-35-20.jsonl",
+   "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T20-32-06.jsonl",
    "result": "demos/out/D1_no_documents.json",
    "earlier_takes": [
     {
      "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T18-34-58.jsonl",
      "result": "demos/out/D1_no_documents_take1.json",
      "why_not_used": "ran in the documents folder with no plain-chat note: Claude saw the folder and wrote tool calls as text"
+    },
+    {
+     "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T18-35-20.jsonl",
+     "result": "demos/out/D1_no_documents_take2.json",
+     "why_not_used": "meeting-invite question (L7): the generic answer (at least 24 hours, ideally 2-3 business days) came close to the handbook's 72 hours, so it did not show the point; replaced by L1, a number no model can know"
     }
    ]
   },

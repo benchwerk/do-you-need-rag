@@ -54,7 +54,7 @@ Every finding, with its source field, the prediction check and the limits: `NUAN
 | `results/2026-11-02_x86-laptop_main/` | main run and repeats: `raw.jsonl` (192 answers), `streams/` (transcripts), `rag_passages.json` |
 | `results/2026-11-05_x86-laptop_search/` | vector search timings |
 | `scoring/` | blind sheet, key, both graders' grades, final grades; how grading worked |
-| `demos/` | short demonstrations built from the data (`takes.json` lists them) and the two extra sessions for D1 (the first take was not used and is kept) |
+| `demos/` | short demonstrations built from the data (`takes.json` lists them) and the three extra sessions for D1 (takes 1 and 2 were not used; `takes.json` says why) |
 | `analysis/` | `findings.py` and `rag_passages.py` |
 | `editorial_log.md` | the independent reviews of this work |
 

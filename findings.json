@@ -928,9 +928,10 @@
  },
  "demos": {
   "D1": {
-   "question": "How far in advance do we recommend you send meeting invites?",
-   "answer": "I don't have a policy for your team or organization, and nothing in this session mentions one, so I can't say what \"we\" recommend. If there's an internal guideline, it would be in an employee handbook or wiki, which I can't see from here.\n\nThese are common rules of thumb:\n\n- **Internal, routine meetings:** at least 24 hours ahead, ideally 2-3 business days.\n- **Larger meetings or workshops (5+ people, or ones that need prep):** 1-2 weeks.\n- **External or cross-time-zone meetings:** 1-2 weeks, since scheduling takes more back-and-forth.\n- **Executives or hard-to-schedule attendees:** 2-4 weeks, or whatever their assistants need.\n- **Urgent meetings:** send as soon as possible and flag the urgency in the title or a message.\n\nWhatever the lead time, include an agenda, a clear purpose, and any pre-reading in the invite.\n\nIf you paste your team's guideline here, I can help you summarize it or turn it into a short reminder or template.",
-   "expected_from_handbook": "72 hours (minimum 24 hours)"
+   "question_id": "L1",
+   "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+   "answer": "I can't give you a number. Navan doesn't have a universal per-item limit. The cap comes from your company's expense policy, which admins configure in Navan, and it can vary by expense category, role, or country. I also can't open files or look anything up in this chat, so I can't see your policy.\n\nTo find the actual limit:\n\n- **Your expense policy document**, usually on your company's intranet or in the finance or HR handbook, should state per-item thresholds and receipt requirements.\n- **Navan itself**: when you add an expense, the app typically flags policy violations or amounts that need extra approval before you submit.\n- **Your finance or travel admin team** can confirm the limits and any approval tiers.\n\nIf you paste the relevant policy text here, I can help you interpret it.",
+   "expected_from_handbook": "$5,000"
   },
   "D2_size_check": {
    "command_powershell": "[int]((Get-ChildItem -File -Recurse | Get-Content -Raw -Encoding UTF8 | Measure-Object -Character).Characters / 4 * 1.4)",
