@@ -1,0 +1,542 @@
+[
+ {
+  "set": "small",
+  "q": "L1",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 13,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L2",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 3,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L3",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 6,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L4",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L5",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L6",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 3,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L7",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 7,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L8",
+  "group": "literal",
+  "answer_chunks": 2,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L9",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "L10",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P1",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 8,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P2",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 6,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P3",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 5,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P4",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 11,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P5",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 28,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P6",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P7",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P8",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 28,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P9",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 4,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "small",
+  "q": "P10",
+  "group": "paraphrased",
+  "answer_chunks": 2,
+  "best_rank": 15,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L1",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 15,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L2",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 4,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L3",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 9,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L4",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L5",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L6",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 3,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L7",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 9,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L8",
+  "group": "literal",
+  "answer_chunks": 2,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L9",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "L10",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P1",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 9,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P2",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 11,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P3",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 6,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P4",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 16,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P5",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 35,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P6",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P7",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P8",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 37,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P9",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 4,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "medium",
+  "q": "P10",
+  "group": "paraphrased",
+  "answer_chunks": 2,
+  "best_rank": 75,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L1",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 15,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L2",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 4,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L3",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 43,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L4",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L5",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L6",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 3,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L7",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 16,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L8",
+  "group": "literal",
+  "answer_chunks": 2,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L9",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "L10",
+  "group": "literal",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P1",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 9,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P2",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 13,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P3",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 11,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P4",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 35,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P5",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 111,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P6",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 1,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P7",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 3,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P8",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 157,
+  "in_top_k": false,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P9",
+  "group": "paraphrased",
+  "answer_chunks": 1,
+  "best_rank": 4,
+  "in_top_k": true,
+  "matches_log": true
+ },
+ {
+  "set": "large",
+  "q": "P10",
+  "group": "paraphrased",
+  "answer_chunks": 2,
+  "best_rank": 641,
+  "in_top_k": false,
+  "matches_log": true
+ }
+]

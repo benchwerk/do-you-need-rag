@@ -1,0 +1,58 @@
+{
+ "rule": "the first take that shows what the demo describes is used; every take is kept",
+ "used": {
+  "D1 without documents": {
+   "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T18-35-20.jsonl",
+   "result": "demos/out/D1_no_documents.json",
+   "earlier_takes": [
+    {
+     "transcript": "demos/out/transcripts/D1-no-documents_2026-11-06T18-34-58.jsonl",
+     "result": "demos/out/D1_no_documents_take1.json",
+     "why_not_used": "ran in the documents folder with no plain-chat note: Claude saw the folder and wrote tool calls as text"
+    }
+   ]
+  },
+  "D2 check your size": {
+   "result": "demos/out/D2_size.json",
+   "note": "local command, no model call; tested against the main run's real paste tokens"
+  },
+  "D3 paste": {
+   "transcript": "results/2026-11-02_x86-laptop_main/streams/paste_small_P5_0.jsonl",
+   "grade": "correct"
+  },
+  "D4 agent search": {
+   "transcript": "results/2026-11-02_x86-laptop_main/streams/agent_large_P5_0.jsonl",
+   "grade": "correct",
+   "why": "reworded question ('taped'); one Grep for 'recording|recorded', correct at 1,000 files",
+   "spare": [
+    {
+     "transcript": "results/2026-11-02_x86-laptop_main/streams/agent_large_P7_0.jsonl",
+     "grade": "correct"
+    }
+   ]
+  },
+  "D5 embeddings": {
+   "result": "demos/out/D5_embed.json"
+  },
+  "D6 RAG": {
+   "hit": {
+    "transcript": "results/2026-11-02_x86-laptop_main/streams/rag_large_L4_0.jsonl",
+    "grade": "correct"
+   },
+   "miss": {
+    "transcript": "results/2026-11-02_x86-laptop_main/streams/rag_large_P5_0.jsonl",
+    "grade": "not_found",
+    "sheet": "demos/out/D6_rag_miss_P5_large.json"
+   },
+   "confident_wrong": {
+    "transcript": "results/2026-11-02_x86-laptop_main/streams/rag_large_P8_0.jsonl",
+    "grade": "wrong"
+   },
+   "why": "same question as D4: RAG's search ranked the answer chunk 111th; a hit for contrast; a confident wrong answer that reads like a correct one"
+  },
+  "D7 vector database": {
+   "result": "demos/out/D7_vector.json",
+   "measured": "results/2026-11-05_x86-laptop_search/search.json"
+  }
+ }
+}

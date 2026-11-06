@@ -1,0 +1,13 @@
+{
+ "claude_version": "2.1.286",
+ "model": "claude-sonnet-5-5",
+ "embedding_model": "BAAI/bge-small-en-v1.5",
+ "chunk_words": 300,
+ "chunk_overlap": 50,
+ "top_k": 20,
+ "agent_tools": "Read,Grep,Glob",
+ "agent_max_turns": 25,
+ "paste_max_est_tokens": 900000,
+ "sets_dir": "C:/ragdemo/sets",
+ "instruction": "Answer the question using only the company documents. Reply in one or two short sentences. If the documents do not contain the answer, say you could not find it."
+}

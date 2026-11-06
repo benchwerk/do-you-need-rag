@@ -1,0 +1,44 @@
+{
+ "question": "After a call that got taped, how quickly should people be able to watch it?",
+ "set": "large",
+ "top_k": 20,
+ "top_5": [
+  {
+   "rank": 1,
+   "file": "communication___index.md",
+   "score": 0.709,
+   "start": "Note also that after a meeting ends, Zoom may take some time to process the recording before it is actually available. The sync to Google Drive happens on the h"
+  },
+  {
+   "rank": 2,
+   "file": "customer-experience__csm__cadence-calls.md",
+   "score": 0.689,
+   "start": "concerns, embrace new information with relevant questions, and anything on the agenda that isn't critical can be delayed until the next cadence call. This relat"
+  },
+  {
+   "rank": 3,
+   "file": "support__on-call.md",
+   "score": 0.689,
+   "start": "through the code here and make sense of it\". #### Take a break Consider taking breaks during emergency calls. Taking a break can help you to feel more refreshed"
+  },
+  {
+   "rank": 4,
+   "file": "communication___index.md",
+   "score": 0.683,
+   "start": "1. Sometimes it's better to *not* have a video call. Consider these tradeoffs: - It is difficult (or impossible) to multi-task in a video call. - It may be more"
+  },
+  {
+   "rank": 5,
+   "file": "support__on-call.md",
+   "score": 0.681,
+   "start": "During an emergency [taking a break](#take-a-break), can be very beneficial for results for our customers as it permits the incoming CEOC to get up to speed. Th"
+  }
+ ],
+ "answer_chunk": {
+  "rank": 111,
+  "file": "company__culture__all-remote__meetings.md",
+  "score": 0.61
+ },
+ "twentieth_score": 0.647,
+ "prompt_est_tokens": 9426
+}

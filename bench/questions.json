@@ -1,0 +1,182 @@
+[
+ {
+  "id": "L1",
+  "group": "literal",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "answer": "$5,000",
+  "key_regex": "\\b5,?000\\b|five thousand",
+  "source": "finance__expenses.md",
+  "quote": "Expense claims for a single item up to $5,000 can be expensed via Navan."
+ },
+ {
+  "id": "L2",
+  "group": "literal",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "answer": "90 days",
+  "key_regex": "\\b90\\b|ninety",
+  "source": "finance__expenses.md",
+  "quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager."
+ },
+ {
+  "id": "L3",
+  "group": "literal",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "answer": "At least 90 days ahead of the renewal date",
+  "key_regex": "\\b90\\b|ninety",
+  "source": "finance__procurement___index.md",
+  "quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms"
+ },
+ {
+  "id": "L4",
+  "group": "literal",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "answer": "12 characters",
+  "key_regex": "\\b12\\b|twelve",
+  "source": "security__policies_and_standards__password-standard.md",
+  "quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters."
+ },
+ {
+  "id": "L5",
+  "group": "literal",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "answer": "10 failed attempts",
+  "key_regex": "\\b10\\b|\\bten\\b",
+  "source": "security__policies_and_standards__password-standard.md",
+  "quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts."
+ },
+ {
+  "id": "L6",
+  "group": "literal",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "answer": "10 minutes",
+  "key_regex": "\\b10\\b|\\bten\\b",
+  "source": "support__on-call.md",
+  "quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted."
+ },
+ {
+  "id": "L7",
+  "group": "literal",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "answer": "72 hours (minimum 24 hours)",
+  "key_regex": "\\b72\\b|seventy-two|\\b3\\s*days\\b|three days",
+  "source": "company__culture__all-remote__meetings.md",
+  "quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting"
+ },
+ {
+  "id": "L8",
+  "group": "literal",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "answer": "Customer Support Operations",
+  "key_regex": "customer support operations|support ops",
+  "source": "support__workflows__sla_and_views.md",
+  "quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations."
+ },
+ {
+  "id": "L9",
+  "group": "literal",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "answer": "Data Owners (generally the Business Owners of a system)",
+  "key_regex": "data owner|business owner",
+  "source": "security__policies_and_standards__data-classification-standard.md",
+  "quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system."
+ },
+ {
+  "id": "L10",
+  "group": "literal",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "answer": "The Chief Legal Officer",
+  "key_regex": "chief legal officer|\\bclo\\b",
+  "source": "legal__anti-corruption-policy.md",
+  "quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer."
+ },
+ {
+  "id": "P1",
+  "group": "paraphrased",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "answer": "If the stay is over 5 days",
+  "key_regex": "\\b5\\b|\\bfive\\b",
+  "source": "finance__expenses.md",
+  "quote": "Dry cleaning is allowable if the stay is over 5 days."
+ },
+ {
+  "id": "P2",
+  "group": "paraphrased",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "answer": "Within 7 working days from the date submitted",
+  "key_regex": "\\b7\\b|\\bseven\\b",
+  "source": "finance__expenses.md",
+  "quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted."
+ },
+ {
+  "id": "P3",
+  "group": "paraphrased",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "answer": "Every 24 months",
+  "key_regex": "24 months|two years|2 years",
+  "source": "finance__procurement___index.md",
+  "quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review"
+ },
+ {
+  "id": "P4",
+  "group": "paraphrased",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "answer": "No, all written communication happens in English",
+  "key_regex": "english",
+  "source": "communication___index.md",
+  "quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat."
+ },
+ {
+  "id": "P5",
+  "group": "paraphrased",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "answer": "Within 12 hours",
+  "key_regex": "\\b12\\b|twelve",
+  "source": "company__culture__all-remote__meetings.md",
+  "quote": "add the recording link and password in the agenda with in 12 hours after the meeting"
+ },
+ {
+  "id": "P6",
+  "group": "paraphrased",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "answer": "Each 90 minutes (or so)",
+  "key_regex": "\\b90\\b|ninety|hour and a half|1\\.5\\s*h",
+  "source": "support__on-call.md",
+  "quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long."
+ },
+ {
+  "id": "P7",
+  "group": "paraphrased",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "answer": "2 weeks or longer",
+  "key_regex": "2 weeks|two weeks",
+  "source": "support__support-time-off.md",
+  "quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):"
+ },
+ {
+  "id": "P8",
+  "group": "paraphrased",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "answer": "Discuss with your manager before proceeding",
+  "key_regex": "manager",
+  "source": "support__support-time-off.md",
+  "quote": "PTO capacity has been reached. Please discuss with your manager before proceeding."
+ },
+ {
+  "id": "P9",
+  "group": "paraphrased",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "answer": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "key_regex": "token|shirt|tote",
+  "source": "legal__anti-corruption-policy.md",
+  "quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)"
+ },
+ {
+  "id": "P10",
+  "group": "paraphrased",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "answer": "From the highest classification of the data they protect",
+  "key_regex": "highest|same (level|classification)",
+  "source": "security__policies_and_standards__data-classification-standard.md",
+  "quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect."
+ }
+]

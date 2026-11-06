@@ -1,0 +1,1346 @@
+[
+ {
+  "item": "A001",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations when a ticket is showing in the wrong queue. This comes from the \"Wrong queue\" section of [file]."
+ },
+ {
+  "item": "A002",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle (Procurement handbook, Privacy Review section)."
+ },
+ {
+  "item": "A003",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "Not for a full conversation: GitLab says all written communication should be in English, even one-on-one, since messages often get forwarded. You may add a few simple phrases from other languages with the language named and an English translation, but the handbook's phrase table lists only Croatian, Japanese, and Te Reo Māori, not Spanish."
+ },
+ {
+  "item": "A004",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item can be expensed via Navan up to $5,000. Anything over $5,000 has to go through the procurement process in Zip ([file])."
+ },
+ {
+  "item": "A005",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations when a ticket is showing in the wrong queue. This is in the \"Wrong queue\" section of [file]."
+ },
+ {
+  "item": "A006",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Very sensitive: passwords must be kept private and secured, never shared, never stored in clear text or written down, and if one must be stored it belongs in an approved password or secrets manager. Any suspected compromise should be reported to Security immediately."
+ },
+ {
+  "item": "A007",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length must be set to 12 characters on systems where a password can be configured. This comes from the password standard ([file], line 50)."
+ },
+ {
+  "item": "A008",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters. The password standard says, \"For systems where a password can be configured the minimum password length needs to be set to 12 characters\" ([file])."
+ },
+ {
+  "item": "A009",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "The documents don't clearly allow full Spanish conversations. The handbook sets American English as the standard language. It allows optional use of an additional language only in written one-to-one messages, and only for a few simple phrases from its table. Spanish isn't in that table. Each phrase must come with the language name and an English translation. When in doubt, use American English. (Source: [file], \"Using additional languages\")"
+ },
+ {
+  "item": "A010",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "The documents don't say what to do when your dates show red (over 20% of engineers on PTO). The closest guidance is to schedule time off as far in advance as you can, avoid nonrefundable travel until you're sure the days are approved, and plan around rotations like on-call. For holiday periods, don't make firm commitments until the management team confirms the schedule."
+ },
+ {
+  "item": "A011",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must give prior written approval for any facilitating payments ([file], \"Facilitating Payments\" section)."
+ },
+ {
+  "item": "A012",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must grant prior written approval for any and all facilitating payments (per the Anti-Corruption Policy)."
+ },
+ {
+  "item": "A013",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Passwords must be kept private and secured: not shared, not written down or stored in clear text, and kept in an approved password or secrets manager if they must be stored. Credentials also take on the classification of the most sensitive data they protect, and a suspected compromise must be reported to Security immediately."
+ },
+ {
+  "item": "A014",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor passed a full and satisfactory privacy review in the prior procurement cycle ([file], line 248)."
+ },
+ {
+  "item": "A015",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations. This comes from the \"Wrong queue\" section of the deprecated SLA and Zendesk views page, which also suggests asking in the #support_operations Slack channel. That page is marked outdated, so the process may have changed."
+ },
+ {
+  "item": "A016",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Treat a login secret (such as a password) at the same sensitivity level as the most highly classified data it protects. It should also be kept private, never shared, and never stored in clear text ([file], [file])."
+ },
+ {
+  "item": "A017",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Per the Support time off guidelines, consider different dates if the regional capacity calendar shows your team would be short by 20% or more on any of those days. If the calendar shows yellow (nearing capacity), pick other dates if you can. If it shows red (capacity reached), discuss with your manager before going ahead. (Source: [file])"
+ },
+ {
+  "item": "A018",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Only token-value gifts are allowed, such as shirts or tote bags with the company name or logo. They must be legal, customary, openly given, have a valid business purpose, and be accurately recorded with receipts. Nothing may be given to wrongfully influence the official or gain an improper advantage. Meals are not allowed at all, and \"government official\" includes employees of government-owned companies, so check with the Chief Legal Officer if you're unsure."
+ },
+ {
+  "item": "A019",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must grant prior written approval for any and all facilitating payments, according to the Anti-Corruption Policy."
+ },
+ {
+  "item": "A020",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "For an existing supplier, a full privacy review is required every 24 months. This applies if the supplier completed a full and satisfactory privacy review in the prior procurement cycle ([file])."
+ },
+ {
+  "item": "A021",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item can be expensed via Navan up to $5,000; anything over $5,000 needs to go through the procurement process in Zip (per the Global Travel and Expense Policy)."
+ },
+ {
+  "item": "A022",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The handbook says to add the recording link to the agenda within 12 hours of the meeting, so people in other time zones can watch it asynchronously ([file]:45)."
+ },
+ {
+  "item": "A023",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The vendor renewal process should start at least 90 days ahead of the renewal date, to allow enough time to review the terms and decide on security requirements, risk checks, and any contract changes."
+ },
+ {
+  "item": "A024",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours, to give people across time zones time to respond. Agendas should be shared on the same schedule."
+ },
+ {
+  "item": "A025",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims submitted more than 90 days after the purchase date will not be reimbursed unless the Manager approves them."
+ },
+ {
+  "item": "A026",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims submitted more than 90 days after the purchase date will not be reimbursed, unless the manager approves an exception."
+ },
+ {
+  "item": "A027",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "The documents say dry cleaning is allowable if the hotel stay is over 5 days. They don't mention regular laundry specifically, so that's the only threshold I could find."
+ },
+ {
+  "item": "A028",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "If a new alert hasn't been acknowledged after 10 minutes, the Support Manager on-call is alerted (and after a further 5 minutes without acknowledgement, Senior Support Managers are alerted)."
+ },
+ {
+  "item": "A029",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't support that, the lockout should be set to the minimum value the system allows."
+ },
+ {
+  "item": "A030",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured (per the Password Standard's System Password Configuration Requirements)."
+ },
+ {
+  "item": "A031",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A032",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "According to the Support time-off guidance, consider different dates if your regional capacity calendar shows the team would be short by 20% or more on any of your days. If the calendar shows yellow, the team is nearing PTO capacity, so pick other dates if you can. If it shows red, PTO capacity has been reached, so discuss with your manager before proceeding ([file])."
+ },
+ {
+  "item": "A033",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Possibly, but only within tight limits. The anti-corruption policy allows gifts to government officials only if they are of token value (such as a shirt or tote bag with the company logo), legal and customary, openly given, for a valid business purpose, and recorded with receipts. Anything meant to gain an improper advantage is banned at any value. The expenses page separately bars providing \"anything of value,\" including meals, to government officials or customers, so check with the Chief Legal Officer before giving anything."
+ },
+ {
+  "item": "A034",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item up to $5,000 can be expensed via Navan; anything over $5,000 must go through the procurement process in Zip."
+ },
+ {
+  "item": "A035",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The renewal process should start at least 90 days before the renewal date. That gives enough time to review the terms and decide what to do (from the Procurement handbook, [file]).\n\nFor customer renewals specifically, the CSM handbook says the CSM should ask the \"soft\" renewal question 3–4 months before the renewal."
+ },
+ {
+  "item": "A036",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must give prior written approval for any and all facilitating payments, according to the Anti-Corruption Policy."
+ },
+ {
+  "item": "A037",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters, per the GitLab Password Standards (\"For systems where a password can be configured the minimum password length needs to be set to 12 characters\")."
+ },
+ {
+  "item": "A038",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A039",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured, per the GitLab Password Standards."
+ },
+ {
+  "item": "A040",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "Finance (Accounts Payable) should review and process an expense report within 7 working days of submission, per [file]. Once it's \"final approved,\" US team members are reimbursed through Navan within 1–4 business days. Non-US and payroll-based timing varies."
+ },
+ {
+  "item": "A041",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't support that, the lockout should be set to the lowest value the system allows (per the GitLab Password Standards)."
+ },
+ {
+  "item": "A042",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters. The GitLab Password Standard says that for systems where a password can be configured, the minimum length needs to be set to 12 characters."
+ },
+ {
+  "item": "A043",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "If you'll be out for an extended leave of about 2 weeks or longer, you should set [file] in your agent [file] file in the Support Team project so you aren't auto-assigned to GDPR requests. Get your manager to review the change, and undo it when you return."
+ },
+ {
+  "item": "A044",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "The support time-off page says that for an extended leave of about 2 weeks or longer, you should set [file] in your agent [file] file in the Support Team project, so you aren't auto-assigned to GDPR requests. You then request a review from your manager and undo the change when you return."
+ },
+ {
+  "item": "A045",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "For an extended leave of about 2 weeks or longer, you should set [file] in your agent [file] file in the Support Team project (and request a manager review) so you aren't auto-assigned to GDPR requests. Remember to undo the change when you return."
+ },
+ {
+  "item": "A046",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't support lockout at 10 or fewer, it should be set to the lowest value the system allows (GitLab Password Standards)."
+ },
+ {
+  "item": "A047",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "After 10 minutes without acknowledgement, the Support Manager on-call is alerted. If there's still no acknowledgement 5 minutes after that, Senior Support Managers are alerted ([file])."
+ },
+ {
+  "item": "A048",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "AP Admins should review and process expense reports that need their review within 7 working days of submission. Separately, AP's target is to take action within 3 business days of the manager's approval, though that isn't the same as the reimbursement date."
+ },
+ {
+  "item": "A049",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "For an extended leave of about two weeks or longer, you should update your agent file in the Support Team project, setting [file] so you aren't auto-assigned GDPR requests. Get your manager to review the change and undo it when you return."
+ },
+ {
+  "item": "A050",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "You should reach out to Customer Support Operations. Note that the page this comes from is marked as outdated and for historical reference only, and it also points to the #support_operations Slack channel for questions."
+ },
+ {
+  "item": "A051",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The renewal process should start at least 90 days ahead of the renewal date, giving ample time to review the terms and decide whether to renew, change, or cancel (per the Procurement team's Vendor Renewals guidance)."
+ },
+ {
+  "item": "A052",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "GitLab's Chief Legal Officer must give prior written approval for any and all facilitating payments ([file], \"Facilitating Payments\" section)."
+ },
+ {
+  "item": "A053",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "The documents say to reach out to Customer Support Operations when a ticket is showing in the wrong queue. Note that this page is marked as outdated and historical only, and the #support_operations Slack channel is listed for questions."
+ },
+ {
+  "item": "A054",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Per the \"Ensuring correct SLA and Zendesk views\" page, if a ticket is showing in the wrong queue, you should reach out to Customer Support Operations (the [file] Slack channel is where such questions are asked). Note that the page is marked deprecated and outdated."
+ },
+ {
+  "item": "A055",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured. This comes from the System Password Configuration Requirements in GitLab's Password Standards ([file])."
+ },
+ {
+  "item": "A056",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Treat login secrets as highly sensitive: passwords must be kept private and secured, never shared, never stored in clear text or written down, and if storage is required, only in an approved password or secrets manager. Any suspected compromise should be reported to Security immediately ([file])."
+ },
+ {
+  "item": "A057",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations. The SLA and views workflow says to contact them when a ticket is showing in the wrong queue ([file])."
+ },
+ {
+  "item": "A058",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "I couldn't find an explicit rule for what to do when your dates show red or yellow. The Support time off guidance does say to book as far in advance as you can, avoid nonrefundable travel until you're sure the days are approved, and plan around rotations like on-call. If your dates are popular, consider choosing different ones, or check with your manager."
+ },
+ {
+  "item": "A059",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "Existing vendors need a full privacy review every 24 months, provided the prior review was full and satisfactory (Procurement handbook). However, the Privacy handbook says certain vendors that handle red or orange data are reviewed annually, so the interval may be shorter for those."
+ },
+ {
+  "item": "A060",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "For an existing supplier, a full privacy review is required every 24 months. This applies only if the supplier passed a full, satisfactory privacy review in the previous procurement cycle ([file])."
+ },
+ {
+  "item": "A061",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The documents put the start of the renewal process at about Day 270 of the subscription year, roughly three months before the renewal date, when the initial renewal meeting is held. CSMs are also expected to ask the \"soft\" renewal question 3-4 months before renewal."
+ },
+ {
+  "item": "A062",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The documents don't give a firm target time, but they note that Zoom may take some time to process a recording, and the sync to Google Drive happens on the hour mark, so if it isn't available, it may take another hour to be transferred."
+ },
+ {
+  "item": "A063",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Only gifts of token value, such as shirts or tote bags with the company logo, are acceptable. They must be legal, customary, openly given, accurately recorded, and not meant to influence the official. The expense policy, however, prohibits giving anything of value, including meals, to government officials, so check with the Chief Legal Officer before giving anything."
+ },
+ {
+  "item": "A064",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims more than 90 days after the purchase date won't be reimbursed, unless the Manager approves them ([file], line 56)."
+ },
+ {
+  "item": "A065",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item up to $5,000 can be expensed via Navan; anything over $5,000 must go through the procurement process in Zip."
+ },
+ {
+  "item": "A066",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "For an extended leave of about two weeks or longer, you should make sure you're no longer auto-assigned to GDPR requests. To do that, set [file] in your agent [file] file in the Support Team project and ask your manager to review the change (from [file])."
+ },
+ {
+  "item": "A067",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Only token-value gifts, such as shirts or tote bags with the company logo, are acceptable. They must be legal, customary, openly given, have a valid business purpose, not be meant to influence the official, and be accurately recorded with receipts (ask the Chief Legal Officer if unsure). Note that \"government official\" includes employees of government-owned companies, and the expense policy separately prohibits giving anything of value, including meals, to government officials."
+ },
+ {
+  "item": "A068",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations. Note that the page this comes from is marked as deprecated and outdated, so it's meant for historical reference only."
+ },
+ {
+  "item": "A069",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters, per the GitLab Password Standards, which say systems where a password can be configured must have their minimum length set to 12 characters."
+ },
+ {
+  "item": "A070",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "You should take a break about every 90 minutes if the call runs that long. Tell the customer this at the start of the call, and set a timer. If the timer goes off at a bad moment, extend it a little (source: [file])."
+ },
+ {
+  "item": "A071",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "If the regional calendar shows red (more than 20% of engineers already on PTO), discuss it with your manager before booking, and consider picking different dates. If it's yellow (15-20%), the team is nearing capacity, so choose other dates if you can. Avoid nonrefundable travel until the dates are confirmed."
+ },
+ {
+  "item": "A072",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The vendor renewal process should start at least 90 days before the renewal date. That gives time to review the terms and decide what to do ([file], line 86)."
+ },
+ {
+  "item": "A073",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners approve exceptions to the data classification standard for the data types they own. They are generally the Business Owners of a system. Security and Legal (Code Owners) approve significant changes and exceptions to the standard itself. (Source: [file])"
+ },
+ {
+  "item": "A074",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle (Procurement handbook, section 4.F Privacy Review)."
+ },
+ {
+  "item": "A075",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The documents set the minimum password length at 12 characters for systems where a password can be configured. This comes from the GitLab password standard ([file])."
+ },
+ {
+  "item": "A076",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The renewal process should start at least 90 days ahead of the renewal date, giving ample time to review the terms (per the Procurement page's Vendor Renewals section)."
+ },
+ {
+  "item": "A077",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Treat it as a secret. Passwords are never shared by email, chat, or issue comments, and they're kept only in an approved password or secrets manager such as 1Password ([file], [file]). The standard exists to protect systems holding confidential (Red and Orange) data."
+ },
+ {
+  "item": "A078",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length must be set to 12 characters on systems where a password can be configured. This comes from the password standard, in [file]."
+ },
+ {
+  "item": "A079",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters, per the GitLab Password Standards (\"For systems where a password can be configured the minimum password length needs to be set to 12 characters\")."
+ },
+ {
+  "item": "A080",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners approve exceptions to the data classification standard for the data types they own. They are generally the Business Owners of a system. Security and Legal (the Code Owners) approve significant changes and exceptions to the standard itself. (Source: [file])"
+ },
+ {
+  "item": "A081",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "The handbook sets American English as the standard and says to use other languages only for a few simple phrases (the table lists Croatian, Japanese and Te Reo Māori, not Spanish), always naming the language and giving an English translation. I could not find anything that explicitly addresses writing whole messages in a shared language like Spanish, so the guidance points toward English when in doubt."
+ },
+ {
+  "item": "A082",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "The Support Manager on-call is alerted after 10 minutes without acknowledgement of a new alert (and Senior Support Managers after a further 5 minutes), per the Support On-Call Guide."
+ },
+ {
+  "item": "A083",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "A temporary account lockout should trigger after 10 failed login attempts. If a system can't lock out at 10 or fewer, the lockout should be set to the lowest value the system allows (source: [file])."
+ },
+ {
+  "item": "A084",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "This comes from the Support time-off policy, so it applies if you're on the Support team. If your regional calendar shows yellow (over 15% to 20% of engineers on PTO), consider other dates if you can. If it shows red (over 20%), talk to your manager before booking. Don't commit to nonrefundable travel until you've sorted that out."
+ },
+ {
+  "item": "A085",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A086",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Plan to take a break about every 90 minutes (or so) during a long emergency call, and tell the customer this at the start of the call. A 15-minute break during active troubleshooting is suggested, and if you're not at a reasonable stopping point when your timer goes off, you can extend it by a small amount."
+ },
+ {
+  "item": "A087",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours, so people in different time zones have time to respond."
+ },
+ {
+  "item": "A088",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "The documents say to reach out to Customer Support Operations when a ticket is showing in the wrong queue. Note that this page is marked as outdated and for historical reference only."
+ },
+ {
+  "item": "A089",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours. This gives people time to respond, especially when attendees are in different time zones (source: [file])."
+ },
+ {
+  "item": "A090",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Credentials like passwords and access tokens are classified at the same level as the most sensitive data they protect (e.g., a credential guarding Red data is treated as Red). They must also be kept private, never shared or stored in clear text, and kept in an approved password or secrets manager."
+ },
+ {
+  "item": "A091",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't support lockout at 10 attempts or fewer, it should be configured to the minimum value the system allows."
+ },
+ {
+  "item": "A092",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Only in limited cases: gifts to government officials must not be meant to improperly influence them, and must be of token value (such as shirts or tote bags with the company logo), legal, customary, openly given, and accurately recorded with receipts. Note that \"government official\" includes employees of government-owned businesses, and the expense policy separately prohibits giving anything of value, including meals, to government officials or customers."
+ },
+ {
+  "item": "A093",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters, per the GitLab Password Standards (\"For systems where a password can be configured the minimum password length needs to be set to 12 characters\")."
+ },
+ {
+  "item": "A094",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "Dry cleaning is allowable only if your hotel stay is over 5 days (per the Additional Hotel Guidelines in the expense policy). The documents don't mention laundry service specifically, so this covers dry cleaning only."
+ },
+ {
+  "item": "A095",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The recording link should be added to the agenda within 12 hours after the meeting, so people in other time zones can watch it asynchronously (from the all-remote meetings page)."
+ },
+ {
+  "item": "A096",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "The company allows dry cleaning as an expense if your hotel stay is longer than 5 days ([file]). The documents don't mention laundry or washing in general."
+ },
+ {
+  "item": "A097",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "You should plan a break about every 90 minutes during a long emergency call. Tell the customer this at the start and set a timer. The on-call doc suggests about 15 minutes for each break ([file])."
+ },
+ {
+  "item": "A098",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations. That's what the \"Wrong queue\" section of [file] says to do."
+ },
+ {
+  "item": "A099",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours, so people across time zones have time to respond. Non-essential participants should also be marked as optional."
+ },
+ {
+  "item": "A100",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "Per the meetings guidance, the recording link should be added to the agenda within 12 hours after the meeting so people in different time zones can watch it asynchronously ([file]). Zoom may also need some time to process the recording, and the Google Drive sync runs hourly ([file])."
+ },
+ {
+  "item": "A101",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours, so people across time zones have time to respond. It's also suggested to mark non-essential participants as optional."
+ },
+ {
+  "item": "A102",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "The documents don't say what to do when the calendar shows red or yellow, only that those colors mean more than 15-20% of engineers are already on PTO. They do advise scheduling time off as far in advance as you can, not locking into nonrefundable travel before you're sure the days are approved, and planning around rotations like on-call. So consider picking less busy dates, or check with your manager before committing."
+ },
+ {
+  "item": "A103",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Treat a login password as highly sensitive. It should be kept private and never shared, written down, or stored in clear text. If it must be stored, use an approved password or secrets manager. Its classification is the same as the highest classification of the data it protects (data-classification-standard; password-standard)."
+ },
+ {
+  "item": "A104",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "Dry cleaning is reimbursable only if your hotel stay is longer than 5 days. The documents only mention dry cleaning, so I couldn't find anything about laundry in general."
+ },
+ {
+  "item": "A105",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "Dry cleaning is allowable if your stay is over 5 days, according to the Global Travel and Expense Policy's hotel guidelines. The documents don't mention laundry specifically, so dry cleaning is the closest match I could find."
+ },
+ {
+  "item": "A106",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured. This comes from the System Password Configuration Requirements section of the GitLab Password Standards ([file])."
+ },
+ {
+  "item": "A107",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "Dry cleaning is allowable if the stay is over 5 days (per the Global Travel and Expense Policy's hotel guidelines)."
+ },
+ {
+  "item": "A108",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured, per the GitLab Password Standards."
+ },
+ {
+  "item": "A109",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "After 10 minutes without acknowledgement of a new alert, the Support Manager on-call is alerted. If there's still no acknowledgement after a further 5 minutes, Senior Support Managers are alerted ([file])."
+ },
+ {
+  "item": "A110",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "For existing vendors, a full privacy review is required every 24 months, as long as the vendor passed a full and satisfactory privacy review during the previous procurement cycle. (Source: [file], line 248.)"
+ },
+ {
+  "item": "A111",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "The documents don't give a specific procedure for a red or yellow calendar, but they advise scheduling time off as far in advance as you can, avoiding nonrefundable travel until the days are confirmed, and, if possible, picking dates that don't disrupt rotations like on-call. You may want to consider a less busy date range (green means 0-15% of engineers are on PTO) or check with your manager."
+ },
+ {
+  "item": "A112",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Take a break about every 90 minutes (or so). Tell the customer at the start of the call that you plan to do this, set a timer, and when it goes off, summarize the current state and agree on when and how to resume."
+ },
+ {
+  "item": "A113",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "The documents conflict. The anti-corruption policy allows gifts to government officials only if they are of token value (for example, a shirt or tote bag with the company logo), legal and customary, openly given, and recorded with receipts. Gifts meant to gain an improper advantage are banned at any value. The expenses page, though, says team members may not give anything of value, including meals, to government officials or employees. Check with the Chief Legal Officer before giving anything."
+ },
+ {
+  "item": "A114",
+  "question": "How sensitive should we treat the secret used to log in to a system?",
+  "expected": "From the highest classification of the data they protect",
+  "source_quote": "Credentials such as passwords, personal access tokens, encryption keys, and session cookies derive their classification from the highest classification of the data they protect.",
+  "answer": "Credentials are classified at the same level as the data they protect, so a login secret takes the highest classification of whatever the system holds (for example, Red if it guards Red data). Passwords must also be kept private, never shared or stored in clear text, and kept in an approved password manager."
+ },
+ {
+  "item": "A115",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must give prior written approval for any facilitating payments ([file], \"Facilitating Payments\" section)."
+ },
+ {
+  "item": "A116",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must give prior written approval for any and all facilitating payments (per GitLab's Anti-Corruption Policy)."
+ },
+ {
+  "item": "A117",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Consider picking different dates if you can. The Support time-off guidance says to choose another schedule when your regional capacity calendar shows 20% or more of the team already away. If the calendar is red, which means PTO capacity has been reached, talk to your manager before you book. Yellow means the team is nearing capacity, so pick other dates if you can."
+ },
+ {
+  "item": "A118",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims more than 90 days after the purchase date won't be reimbursed, unless the Manager approves them ([file])."
+ },
+ {
+  "item": "A119",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't support that, the lockout should be set to the minimum value the system allows."
+ },
+ {
+  "item": "A120",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Take a break roughly every 90 minutes during a long emergency call, and let the customer know at the start that you plan to do so. Set a timer, and when it goes off, summarize where things stand and tell everyone when and how the call will resume (a 15-minute break is suggested)."
+ },
+ {
+  "item": "A121",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners approve exceptions to the data classification standard for the data types they own. They are generally the Business Owners of a system. Security and Legal (Code Owners) approve significant changes and exceptions to the standard."
+ },
+ {
+  "item": "A122",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "Yes, but it's optional and limited. GitLab's standard is American English, but the communication handbook allows other languages in written one-to-one communication (like merge request comments between an author and reviewer) if you stick to a few simple phrases and always include the language used and an English translation. It doesn't cover full conversations in Spanish, and when in doubt you should use American English."
+ },
+ {
+  "item": "A123",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "If a new alert hasn't been acknowledged after 10 minutes, the Support Manager on-call is alerted (and after a further 5 minutes without acknowledgement, Senior Support Managers are alerted)."
+ },
+ {
+  "item": "A124",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Coordinate with your team to make sure there's enough cover on those low-availability days, and consider picking different dates that avoid disruptions. Schedule as far ahead as you can, and don't book nonrefundable travel until you've confirmed the days off. If your absence would be over 5 days (Dedicated Migrations team), also file a coverage issue."
+ },
+ {
+  "item": "A125",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "The documents say to reach out to Customer Support Operations when a ticket is showing in the wrong queue. Note that the page this comes from is marked as outdated and for historical reference only."
+ },
+ {
+  "item": "A126",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured, according to the GitLab Password Standards."
+ },
+ {
+  "item": "A127",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "Probably not. The handbook says all written communication happens in English, even one-on-one, because messages may need to be forwarded. Other languages are limited to a few simple phrases from a table (which doesn't list Spanish), each with the language named and an English translation."
+ },
+ {
+  "item": "A128",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "Accounts Payable (AP) should review and process expense reports that need AP Admin review within 7 working days of submission. For in-policy expenses, reimbursement via Navan also generally arrives within 7 business days, with payouts batched weekly on Mondays."
+ },
+ {
+  "item": "A129",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "The documents say to reach out to Customer Support Operations when a ticket is showing in the wrong queue. Note that this page is marked as outdated and for historical reference only."
+ },
+ {
+  "item": "A130",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "After 10 failed attempts, the account should be temporarily locked out. If a system can't lock out at 10 or fewer, it should use the lowest value the system allows (source: [file])."
+ },
+ {
+  "item": "A131",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The documents don't give a guaranteed turnaround, but they note that Zoom may need some time to process a recording, and the sync to Google Drive happens on the hour mark. If the recording isn't available at that point, it may take another hour to be transferred."
+ },
+ {
+  "item": "A132",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims submitted more than 90 days after the purchase date will not be reimbursed, unless the Manager approves them."
+ },
+ {
+  "item": "A133",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The renewal process should start at least 90 days before the renewal date. That gives enough time to review the terms and decide what to do (source: [file], Vendor Renewals section)."
+ },
+ {
+  "item": "A134",
+  "question": "How many repeated failed login attempts should trigger a temporary account lockout?",
+  "expected": "10 failed attempts",
+  "source_quote": "Repeated failed login attempts need to trigger a temporary account lockout after 10 failed attempts.",
+  "answer": "Repeated failed login attempts should trigger a temporary account lockout after 10 failed attempts. If a system can't lock out at 10, the lockout should be set to the lowest value it allows ([file], line 59)."
+ },
+ {
+  "item": "A135",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners (generally the Business Owners of a system) are responsible for approving exceptions to the data classification standard for the data types they own. Security and Legal (Code Owners) approve significant changes and exceptions to the standard more broadly."
+ },
+ {
+  "item": "A136",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "The documents only mention dry cleaning, not laundry. Under the hotel guidelines in [file], dry cleaning is allowable if your stay is over 5 days."
+ },
+ {
+  "item": "A137",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "Accounts Payable should review and process expense reports that need AP Admin review within 7 working days of the date you submitted them."
+ },
+ {
+  "item": "A138",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Single-item expense claims of up to $5,000 can be expensed via Navan. Anything over $5,000 has to go through the procurement process in Zip (source: [file])."
+ },
+ {
+  "item": "A139",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations when a ticket is showing in the wrong queue. This comes from the \"Wrong queue\" section of [file]."
+ },
+ {
+  "item": "A140",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review of an existing supplier is required every 24 months, as long as the supplier passed a full, satisfactory privacy review in the previous procurement cycle ([file])."
+ },
+ {
+  "item": "A141",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required for an existing supplier every 24 months. This applies only if the supplier passed a full, satisfactory privacy review in the prior procurement cycle ([file])."
+ },
+ {
+  "item": "A142",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with 24 hours as the minimum. This gives people time to respond, especially when attendees are in different time zones ([file])."
+ },
+ {
+  "item": "A143",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A144",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "The Support Manager on-call is alerted if a new alert has not been acknowledged after 10 minutes (and Senior Support Managers are alerted after a further 5 minutes without acknowledgement)."
+ },
+ {
+  "item": "A145",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "For an extended leave of two weeks or longer, you should make sure you aren't auto-assigned to GDPR requests. To do that, set [file] in your agent [file] file in the Support Team project and ask your manager to review the change. Source: [file]."
+ },
+ {
+  "item": "A146",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "Recordings should be available within 12 hours of the meeting. The recording link and password go in the agenda in that window so people in other time zones can watch asynchronously ([file])."
+ },
+ {
+  "item": "A147",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "If a new alert isn't acknowledged within 10 minutes, the Support Manager on-call is alerted (and after a further 5 minutes without acknowledgement, Senior Support Managers are alerted)."
+ },
+ {
+  "item": "A148",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A149",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "Finance's target is to give final approval (or respond with a concern) within three business days of your manager approving the report. After that, US team members are reimbursed through Navan within 1–4 business days. Payment timing for non-US team members varies by payroll provider or follows the weekly AP payment run (source: [file])."
+ },
+ {
+  "item": "A150",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "The finance (AP) team should review and process expense reports that need AP Admin review within 7 working days of the date you submit them ([file])."
+ },
+ {
+  "item": "A151",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations ([file], \"Wrong queue\" section). That section sits under a note saying the page is outdated and meant only for historical reference, so the guidance may no longer apply."
+ },
+ {
+  "item": "A152",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "AP Admins should review and process expense reports that require their review within 7 working days of submission. Separately, the AP analyst target is to take action within 3 business days of the manager's approval, and actual payout timing depends on the weekly payment run or your payroll provider."
+ },
+ {
+  "item": "A153",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims submitted more than 90 days after the purchase date will not be reimbursed unless the Manager approves them."
+ },
+ {
+  "item": "A154",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "No. The communication handbook says all written communication happens in English, even one on one, because a message may need to be forwarded ([file]). I didn't find an exception for coworkers who share another language."
+ },
+ {
+  "item": "A155",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "I couldn't find a step-by-step rule for a red or yellow calendar. The Support time-off page only says the colors reflect the share of engineers on PTO (red is over 20%) and advises scheduling time off as far ahead as you can, avoiding nonrefundable travel until your days are secured, and planning around rotations such as on-call. If your dates are firm, I'd check with your manager."
+ },
+ {
+  "item": "A156",
+  "question": "When should the renewal process start ahead of the renewal date?",
+  "expected": "At least 90 days ahead of the renewal date",
+  "source_quote": "The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms",
+  "answer": "The renewal process should start at least 90 days ahead of the renewal date, to leave enough time to review the terms and decide on any changes."
+ },
+ {
+  "item": "A157",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations when a ticket is showing in the wrong queue. You can also ask in the #support_operations Slack channel. Note that the page this comes from is marked outdated and for historical reference only."
+ },
+ {
+  "item": "A158",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Consider a different time off schedule if possible. If your regional calendar shows red (PTO capacity reached), discuss your dates with your manager before booking. If it shows yellow (the team is nearing capacity), pick other dates if you can. This comes from the Support time-off page ([file]), so it applies if you're on the Support team."
+ },
+ {
+  "item": "A159",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "For existing vendors, a full privacy review is required every 24 months, provided the vendor passed a full and satisfactory privacy review in the prior procurement cycle ([file])."
+ },
+ {
+  "item": "A160",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The documents don't give a guaranteed turnaround, but they note that Zoom may take some time to process a recording, and the sync to Google Drive happens on the hour mark. So if it isn't available at first, it may take another hour to be transferred."
+ },
+ {
+  "item": "A161",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with a minimum of 24 hours, to give people time to respond across time zones."
+ },
+ {
+  "item": "A162",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Yes, but only under tight limits. Per the anti-corruption policy, a gift to a government official must not be meant to influence them. It must also be of token value, such as a shirt or tote bag with the company logo, and be legal, customary and openly given. Cash and gift cards are never allowed, and every gift must be recorded accurately and backed by receipts. If you're unsure, ask the Chief Legal Officer before giving it."
+ },
+ {
+  "item": "A163",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "For an extended leave of about two weeks or longer, you should make sure you're not auto-assigned to GDPR requests ([file]). To do that, set [file] in your [file] file in the Support Team project."
+ },
+ {
+  "item": "A164",
+  "question": "Once I've sent in a claim for money I spent, how long should the finance people take to deal with it?",
+  "expected": "Within 7 working days from the date submitted",
+  "source_quote": "Review and process all expense reports that require AP Admin review, within 7 working days from the date submitted.",
+  "answer": "Accounts Payable is expected to review and process expense reports that need AP Admin review within 7 working days of submission. For reimbursement, expenses within policy are paid via Navan within 7 business days (or after AP approval for out-of-policy ones), though payout timing varies by entity and payroll provider."
+ },
+ {
+  "item": "A165",
+  "question": "Who must grant prior written approval for facilitating payments?",
+  "expected": "The Chief Legal Officer",
+  "source_quote": "Any and all facilitating payments require prior written approval from the Chief Legal Officer.",
+  "answer": "The Chief Legal Officer must give prior written approval for any and all facilitating payments (Anti-Corruption Policy, \"Facilitating Payments\" section)."
+ },
+ {
+  "item": "A166",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "Probably not. The documents say all written communication happens in English, even one-on-one, because messages may need to be forwarded, and American English is the standard. Additional languages are only allowed for a few simple phrases (like \"thank you\"), with the language named and an English translation included, and Spanish isn't in the listed table."
+ },
+ {
+  "item": "A167",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners, who are generally the Business Owners of a system, approve exceptions to the standard for their owned data types. Security and Legal (Code Owners) approve significant changes and exceptions to the standard more broadly."
+ },
+ {
+  "item": "A168",
+  "question": "Can I message a coworker in Spanish if we both speak it?",
+  "expected": "No, all written communication happens in English",
+  "source_quote": "All written communication happens in English, even when sent one on one, because sometimes you need to forward an email or chat.",
+  "answer": "Only in a limited way. American English is the company standard, so use it when in doubt. Using another language is optional and applies to written one-to-one messages. You should stick to a few simple phrases from the handbook's table, and always name the language and add an English translation. Spanish isn't in that table, and the handbook doesn't say whether full Spanish conversations are allowed."
+ },
+ {
+  "item": "A169",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item up to $5,000 can be expensed via Navan; anything over $5,000 must go through the procurement process in Zip."
+ },
+ {
+  "item": "A170",
+  "question": "How often do we have to recheck how a supplier we already use handles personal information?",
+  "expected": "Every 24 months",
+  "source_quote": "For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review",
+  "answer": "A full privacy review is required every 24 months for existing vendors, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle."
+ },
+ {
+  "item": "A171",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item of up to $5,000 can be expensed via Navan. Anything over $5,000 has to go through the procurement process in Zip ([file])."
+ },
+ {
+  "item": "A172",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners, who are generally the Business Owners of a system, approve exceptions to the standard for their owned data types. Security and Legal (Code Owners) approve significant changes and exceptions to the standard."
+ },
+ {
+  "item": "A173",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Plan to take a break about every 90 minutes if the call goes that long, and tell the customer this at the start of the call. Set a timer, and if it goes off at a bad moment, extend it by a small amount. A 15-minute break during active troubleshooting is suggested."
+ },
+ {
+  "item": "A174",
+  "question": "What is the minimum password length for systems where a password can be configured?",
+  "expected": "12 characters",
+  "source_quote": "For systems where a password can be configured the minimum password length needs to be set to 12 characters.",
+  "answer": "The minimum password length is 12 characters for systems where a password can be configured. This comes from the System Password Configuration Requirements section of the GitLab Password Standards ([file])."
+ },
+ {
+  "item": "A175",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "If the regional calendar shows your dates as yellow, consider other dates if you can. If they show red (more than 20% of engineers on PTO), talk to your manager before booking. If the team would be short by 20% or more on any of your days, the handbook says to consider a different schedule ([file]). This applies to Support team members, and the documents don't cover other teams' calendars."
+ },
+ {
+  "item": "A176",
+  "question": "On a work trip, how long do I have to be away before the company will pay to get my clothes washed?",
+  "expected": "If the stay is over 5 days",
+  "source_quote": "Dry cleaning is allowable if the stay is over 5 days.",
+  "answer": "You have to be away for more than 5 days. The expenses policy says dry cleaning is allowable if the stay is over 5 days ([file]). The documents don't mention laundry or washing specifically, so this rule is the closest match I found."
+ },
+ {
+  "item": "A177",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Consider choosing different dates. If your regional capacity calendar shows 20% or more of the team already out (red), discuss with your manager before booking. Check the calendar before booking, and avoid nonrefundable travel until it's confirmed."
+ },
+ {
+  "item": "A178",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims submitted more than 90 days after the purchase date will not be reimbursed unless the manager approves them (Global Travel and Expense Policy, General Guidelines)."
+ },
+ {
+  "item": "A179",
+  "question": "After how many minutes without acknowledgement of a new alert is the Support Manager on-call paged?",
+  "expected": "10 minutes",
+  "source_quote": "If a new alert has not been acknowledged after 10 minutes, the Support Manager on-call is alerted.",
+  "answer": "The Support Manager on-call is alerted after 10 minutes without acknowledgement of a new alert. If there's still no acknowledgement 5 minutes after that, Senior Support Managers are alerted ([file])."
+ },
+ {
+  "item": "A180",
+  "question": "Up to what amount can expense claims for a single item be expensed via Navan?",
+  "expected": "$5,000",
+  "source_quote": "Expense claims for a single item up to $5,000 can be expensed via Navan.",
+  "answer": "Expense claims for a single item up to $5,000 can be expensed via Navan; anything over $5,000 must go through the procurement process in Zip."
+ },
+ {
+  "item": "A181",
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "expected": "Within 12 hours",
+  "source_quote": "add the recording link and password in the agenda with in 12 hours after the meeting",
+  "answer": "The recording link should be added to the agenda within 12 hours after the meeting, so people in other time zones can watch it asynchronously (from the all-remote meetings page). Zoom may also need extra time to process the recording before it's available."
+ },
+ {
+  "item": "A182",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "I couldn't find an explicit rule for what to do when your dates show as red (over 20% of engineers on PTO). The Support time off guidance does advise booking as far in advance as you can, avoiding nonrefundable travel until your days are confirmed, and, if possible, picking dates that don't disrupt rotations like on-call. You may want to consider other dates or check with your manager."
+ },
+ {
+  "item": "A183",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners (generally the Business Owners of a system) approve exceptions to the data classification standard for the data types they own. Security and Legal (Code Owners) approve significant changes and exceptions to the standard more broadly."
+ },
+ {
+  "item": "A184",
+  "question": "How far in advance do we recommend you send meeting invites?",
+  "expected": "72 hours (minimum 24 hours)",
+  "source_quote": "We recommend you send meeting invites 72 hours (minimum 24 hours) in advance of the meeting",
+  "answer": "We recommend sending meeting invites 72 hours in advance, with 24 hours as the minimum, so people across time zones have time to respond ([file])."
+ },
+ {
+  "item": "A185",
+  "question": "After how many days from the purchase date will expense claims not be reimbursed?",
+  "expected": "90 days",
+  "source_quote": "Expense claims over 90 days from purchase date will not be reimbursed unless approved by the Manager.",
+  "answer": "Expense claims more than 90 days after the purchase date won't be reimbursed, unless the Manager approves them ([file])."
+ },
+ {
+  "item": "A186",
+  "question": "The team calendar says too many of us are already away on my dates. What should I do?",
+  "expected": "Discuss with your manager before proceeding",
+  "source_quote": "PTO capacity has been reached. Please discuss with your manager before proceeding.",
+  "answer": "Consider picking different dates if you can, because the Support time-off guidance says to do that when your regional calendar shows the team short by 20% or more. If the calendar shows red (over 20% already on PTO), talk to your manager before you go ahead. If it shows yellow (15–20%), try other dates if possible. Don't book nonrefundable travel until it's confirmed."
+ },
+ {
+  "item": "A187",
+  "question": "Who should you reach out to when a ticket is showing in the wrong queue?",
+  "expected": "Customer Support Operations",
+  "source_quote": "In cases where a ticket is showing in the wrong queue, use the reach out to Customer Support Operations.",
+  "answer": "Reach out to Customer Support Operations when a ticket is showing in the wrong queue ([file], \"Wrong queue\" section)."
+ },
+ {
+  "item": "A188",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Plan to take a break about every 90 minutes (or so) during a long emergency call, and tell the customer that up front. When the timer goes off, summarize the current state and make sure everyone knows when and how to rejoin. If you're not at a reasonable stopping point, extend the timer by a small amount."
+ },
+ {
+  "item": "A189",
+  "question": "Who is responsible for approving exceptions to the data classification standard for their owned data?",
+  "expected": "Data Owners (generally the Business Owners of a system)",
+  "source_quote": "Responsible for approving exceptions to this standard for their owned data types. These are generally the Business Owners of a system.",
+  "answer": "Data Owners, who are generally the Business Owners of a system, approve exceptions to the standard for their owned data types. Security and Legal (Code Owners) approve significant changes and exceptions to the standard more broadly."
+ },
+ {
+  "item": "A190",
+  "question": "If I'm stuck helping a customer on a very long emergency call, how often should I stop for a rest?",
+  "expected": "Each 90 minutes (or so)",
+  "source_quote": "letting them know you plan to take a break each 90 minutes (or so), if the call goes that long.",
+  "answer": "Plan to take a break about every 90 minutes (or so) on a long emergency call. Tell the customer this at the start, and set a timer. If the timer goes off at a bad moment, extend it by a small amount (source: [file])."
+ },
+ {
+  "item": "A191",
+  "question": "How long do I have to be away before I need to make sure customers' privacy requests stop being sent to me automatically?",
+  "expected": "2 weeks or longer",
+  "source_quote": "To ensure you're not auto-assigned to GDPR requests in case of an extented leave (e.g 2 weeks or longer):",
+  "answer": "Per the Support time-off page, if you'll be away for an extended leave (e.g., two weeks or longer), you should update your agent file in the Support Team project to set [file] so you're not auto-assigned GDPR requests (and undo it when you return). This sits under the guidance for absences of three or more business days."
+ },
+ {
+  "item": "A192",
+  "question": "Can I give a present to someone who works for the government, and what kind is fine?",
+  "expected": "Token value (such as shirts or tote bags with the Company name or logo)",
+  "source_quote": "gifts must be of token value (such as shirts or tote bags that reflect Company's business name and/or logo)",
+  "answer": "Only token-value gifts (like shirts or tote bags with the company logo) that are legal, customary, openly given, have a valid business purpose, and are accurately recorded with receipts are allowed, and none may be meant to influence the official. Note that \"government official\" is broad (it includes employees of government-owned companies), and the expense policy separately prohibits giving anything of value, including meals, to government officials, so check with the Chief Legal Officer before giving anything."
+ }
+]

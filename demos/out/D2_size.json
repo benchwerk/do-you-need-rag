@@ -1,0 +1,34 @@
+{
+ "command_powershell": "[int]((Get-ChildItem -File -Recurse | Get-Content -Raw -Encoding UTF8 | Measure-Object -Character).Characters / 4 * 1.4)",
+ "command_bash": "echo $(( $(cat $(find . -type f) | wc -m) * 14 / 40 ))",
+ "real_tokens_include": "the instruction, document tags and the question (median of 20 paste answers)",
+ "rows": [
+  {
+   "set": "small",
+   "files": 10,
+   "characters": 402233,
+   "estimate_x1_4": 140782,
+   "powershell_prints": "142275",
+   "real_paste_tokens": 137092.0,
+   "note": null
+  },
+  {
+   "set": "medium",
+   "files": 100,
+   "characters": 1372515,
+   "estimate_x1_4": 480380,
+   "powershell_prints": "486201",
+   "real_paste_tokens": 478819.0,
+   "note": null
+  },
+  {
+   "set": "large",
+   "files": 1000,
+   "characters": 12047482,
+   "estimate_x1_4": 4216619,
+   "powershell_prints": "4276114",
+   "real_paste_tokens": null,
+   "note": "too large to paste; not run"
+  }
+ ]
+}

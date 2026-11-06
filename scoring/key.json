@@ -1,0 +1,1154 @@
+{
+ "A001": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L8",
+  "rep": 4
+ },
+ "A002": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P3",
+  "rep": 0
+ },
+ "A003": {
+  "method": "paste",
+  "set": "small",
+  "q": "P4",
+  "rep": 0
+ },
+ "A004": {
+  "method": "agent",
+  "set": "large",
+  "q": "L1",
+  "rep": 0
+ },
+ "A005": {
+  "method": "agent",
+  "set": "small",
+  "q": "L8",
+  "rep": 0
+ },
+ "A006": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P10",
+  "rep": 0
+ },
+ "A007": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L4",
+  "rep": 3
+ },
+ "A008": {
+  "method": "agent",
+  "set": "large",
+  "q": "L4",
+  "rep": 0
+ },
+ "A009": {
+  "method": "agent",
+  "set": "large",
+  "q": "P4",
+  "rep": 0
+ },
+ "A010": {
+  "method": "rag",
+  "set": "small",
+  "q": "P8",
+  "rep": 0
+ },
+ "A011": {
+  "method": "agent",
+  "set": "small",
+  "q": "L10",
+  "rep": 0
+ },
+ "A012": {
+  "method": "rag",
+  "set": "large",
+  "q": "L10",
+  "rep": 0
+ },
+ "A013": {
+  "method": "rag",
+  "set": "small",
+  "q": "P10",
+  "rep": 0
+ },
+ "A014": {
+  "method": "agent",
+  "set": "small",
+  "q": "P3",
+  "rep": 0
+ },
+ "A015": {
+  "method": "paste",
+  "set": "small",
+  "q": "L8",
+  "rep": 0
+ },
+ "A016": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P10",
+  "rep": 0
+ },
+ "A017": {
+  "method": "agent",
+  "set": "small",
+  "q": "P8",
+  "rep": 0
+ },
+ "A018": {
+  "method": "rag",
+  "set": "small",
+  "q": "P9",
+  "rep": 0
+ },
+ "A019": {
+  "method": "rag",
+  "set": "small",
+  "q": "L10",
+  "rep": 0
+ },
+ "A020": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P3",
+  "rep": 2
+ },
+ "A021": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L1",
+  "rep": 0
+ },
+ "A022": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P5",
+  "rep": 0
+ },
+ "A023": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L3",
+  "rep": 0
+ },
+ "A024": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L7",
+  "rep": 0
+ },
+ "A025": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L2",
+  "rep": 0
+ },
+ "A026": {
+  "method": "paste",
+  "set": "small",
+  "q": "L2",
+  "rep": 0
+ },
+ "A027": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P1",
+  "rep": 0
+ },
+ "A028": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L6",
+  "rep": 0
+ },
+ "A029": {
+  "method": "rag",
+  "set": "large",
+  "q": "L5",
+  "rep": 0
+ },
+ "A030": {
+  "method": "rag",
+  "set": "large",
+  "q": "L4",
+  "rep": 0
+ },
+ "A031": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P3",
+  "rep": 3
+ },
+ "A032": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P8",
+  "rep": 4
+ },
+ "A033": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P9",
+  "rep": 0
+ },
+ "A034": {
+  "method": "paste",
+  "set": "small",
+  "q": "L1",
+  "rep": 0
+ },
+ "A035": {
+  "method": "agent",
+  "set": "large",
+  "q": "L3",
+  "rep": 0
+ },
+ "A036": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L10",
+  "rep": 0
+ },
+ "A037": {
+  "method": "rag",
+  "set": "small",
+  "q": "L4",
+  "rep": 0
+ },
+ "A038": {
+  "method": "rag",
+  "set": "small",
+  "q": "P3",
+  "rep": 0
+ },
+ "A039": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L4",
+  "rep": 3
+ },
+ "A040": {
+  "method": "agent",
+  "set": "large",
+  "q": "P2",
+  "rep": 0
+ },
+ "A041": {
+  "method": "paste",
+  "set": "small",
+  "q": "L5",
+  "rep": 0
+ },
+ "A042": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L4",
+  "rep": 0
+ },
+ "A043": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P7",
+  "rep": 0
+ },
+ "A044": {
+  "method": "rag",
+  "set": "large",
+  "q": "P7",
+  "rep": 0
+ },
+ "A045": {
+  "method": "rag",
+  "set": "small",
+  "q": "P7",
+  "rep": 0
+ },
+ "A046": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L5",
+  "rep": 0
+ },
+ "A047": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L6",
+  "rep": 0
+ },
+ "A048": {
+  "method": "rag",
+  "set": "large",
+  "q": "P2",
+  "rep": 0
+ },
+ "A049": {
+  "method": "paste",
+  "set": "small",
+  "q": "P7",
+  "rep": 0
+ },
+ "A050": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L8",
+  "rep": 0
+ },
+ "A051": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L3",
+  "rep": 0
+ },
+ "A052": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L10",
+  "rep": 0
+ },
+ "A053": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L8",
+  "rep": 2
+ },
+ "A054": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L8",
+  "rep": 0
+ },
+ "A055": {
+  "method": "agent",
+  "set": "small",
+  "q": "L4",
+  "rep": 0
+ },
+ "A056": {
+  "method": "rag",
+  "set": "large",
+  "q": "P10",
+  "rep": 0
+ },
+ "A057": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L8",
+  "rep": 2
+ },
+ "A058": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P8",
+  "rep": 3
+ },
+ "A059": {
+  "method": "rag",
+  "set": "large",
+  "q": "P3",
+  "rep": 0
+ },
+ "A060": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P3",
+  "rep": 3
+ },
+ "A061": {
+  "method": "rag",
+  "set": "large",
+  "q": "L3",
+  "rep": 0
+ },
+ "A062": {
+  "method": "rag",
+  "set": "large",
+  "q": "P5",
+  "rep": 0
+ },
+ "A063": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P9",
+  "rep": 0
+ },
+ "A064": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L2",
+  "rep": 0
+ },
+ "A065": {
+  "method": "rag",
+  "set": "large",
+  "q": "L1",
+  "rep": 0
+ },
+ "A066": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P7",
+  "rep": 0
+ },
+ "A067": {
+  "method": "paste",
+  "set": "small",
+  "q": "P9",
+  "rep": 0
+ },
+ "A068": {
+  "method": "rag",
+  "set": "small",
+  "q": "L8",
+  "rep": 0
+ },
+ "A069": {
+  "method": "paste",
+  "set": "small",
+  "q": "L4",
+  "rep": 0
+ },
+ "A070": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P6",
+  "rep": 0
+ },
+ "A071": {
+  "method": "paste",
+  "set": "small",
+  "q": "P8",
+  "rep": 0
+ },
+ "A072": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L3",
+  "rep": 0
+ },
+ "A073": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L9",
+  "rep": 0
+ },
+ "A074": {
+  "method": "paste",
+  "set": "small",
+  "q": "P3",
+  "rep": 0
+ },
+ "A075": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L4",
+  "rep": 2
+ },
+ "A076": {
+  "method": "paste",
+  "set": "small",
+  "q": "L3",
+  "rep": 0
+ },
+ "A077": {
+  "method": "agent",
+  "set": "large",
+  "q": "P10",
+  "rep": 0
+ },
+ "A078": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L4",
+  "rep": 1
+ },
+ "A079": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L4",
+  "rep": 1
+ },
+ "A080": {
+  "method": "agent",
+  "set": "large",
+  "q": "L9",
+  "rep": 0
+ },
+ "A081": {
+  "method": "rag",
+  "set": "large",
+  "q": "P4",
+  "rep": 0
+ },
+ "A082": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L6",
+  "rep": 0
+ },
+ "A083": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L5",
+  "rep": 0
+ },
+ "A084": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P8",
+  "rep": 1
+ },
+ "A085": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P3",
+  "rep": 0
+ },
+ "A086": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P6",
+  "rep": 0
+ },
+ "A087": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L7",
+  "rep": 0
+ },
+ "A088": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L8",
+  "rep": 4
+ },
+ "A089": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L7",
+  "rep": 0
+ },
+ "A090": {
+  "method": "paste",
+  "set": "small",
+  "q": "P10",
+  "rep": 0
+ },
+ "A091": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L5",
+  "rep": 0
+ },
+ "A092": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P9",
+  "rep": 0
+ },
+ "A093": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L4",
+  "rep": 4
+ },
+ "A094": {
+  "method": "rag",
+  "set": "small",
+  "q": "P1",
+  "rep": 0
+ },
+ "A095": {
+  "method": "paste",
+  "set": "small",
+  "q": "P5",
+  "rep": 0
+ },
+ "A096": {
+  "method": "agent",
+  "set": "large",
+  "q": "P1",
+  "rep": 0
+ },
+ "A097": {
+  "method": "agent",
+  "set": "small",
+  "q": "P6",
+  "rep": 0
+ },
+ "A098": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L8",
+  "rep": 1
+ },
+ "A099": {
+  "method": "paste",
+  "set": "small",
+  "q": "L7",
+  "rep": 0
+ },
+ "A100": {
+  "method": "agent",
+  "set": "large",
+  "q": "P5",
+  "rep": 0
+ },
+ "A101": {
+  "method": "rag",
+  "set": "large",
+  "q": "L7",
+  "rep": 0
+ },
+ "A102": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P8",
+  "rep": 2
+ },
+ "A103": {
+  "method": "agent",
+  "set": "small",
+  "q": "P10",
+  "rep": 0
+ },
+ "A104": {
+  "method": "rag",
+  "set": "large",
+  "q": "P1",
+  "rep": 0
+ },
+ "A105": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P1",
+  "rep": 0
+ },
+ "A106": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L4",
+  "rep": 4
+ },
+ "A107": {
+  "method": "paste",
+  "set": "small",
+  "q": "P1",
+  "rep": 0
+ },
+ "A108": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L4",
+  "rep": 2
+ },
+ "A109": {
+  "method": "agent",
+  "set": "small",
+  "q": "L6",
+  "rep": 0
+ },
+ "A110": {
+  "method": "agent",
+  "set": "large",
+  "q": "P3",
+  "rep": 0
+ },
+ "A111": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P8",
+  "rep": 0
+ },
+ "A112": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P6",
+  "rep": 0
+ },
+ "A113": {
+  "method": "agent",
+  "set": "small",
+  "q": "P9",
+  "rep": 0
+ },
+ "A114": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P10",
+  "rep": 0
+ },
+ "A115": {
+  "method": "agent",
+  "set": "large",
+  "q": "L10",
+  "rep": 0
+ },
+ "A116": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L10",
+  "rep": 0
+ },
+ "A117": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P8",
+  "rep": 3
+ },
+ "A118": {
+  "method": "agent",
+  "set": "large",
+  "q": "L2",
+  "rep": 0
+ },
+ "A119": {
+  "method": "rag",
+  "set": "small",
+  "q": "L5",
+  "rep": 0
+ },
+ "A120": {
+  "method": "paste",
+  "set": "small",
+  "q": "P6",
+  "rep": 0
+ },
+ "A121": {
+  "method": "agent",
+  "set": "small",
+  "q": "L9",
+  "rep": 0
+ },
+ "A122": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P4",
+  "rep": 0
+ },
+ "A123": {
+  "method": "rag",
+  "set": "small",
+  "q": "L6",
+  "rep": 0
+ },
+ "A124": {
+  "method": "rag",
+  "set": "large",
+  "q": "P8",
+  "rep": 0
+ },
+ "A125": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L8",
+  "rep": 1
+ },
+ "A126": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L4",
+  "rep": 0
+ },
+ "A127": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P4",
+  "rep": 0
+ },
+ "A128": {
+  "method": "paste",
+  "set": "small",
+  "q": "P2",
+  "rep": 0
+ },
+ "A129": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L8",
+  "rep": 3
+ },
+ "A130": {
+  "method": "agent",
+  "set": "small",
+  "q": "L5",
+  "rep": 0
+ },
+ "A131": {
+  "method": "rag",
+  "set": "small",
+  "q": "P5",
+  "rep": 0
+ },
+ "A132": {
+  "method": "rag",
+  "set": "small",
+  "q": "L2",
+  "rep": 0
+ },
+ "A133": {
+  "method": "agent",
+  "set": "small",
+  "q": "L3",
+  "rep": 0
+ },
+ "A134": {
+  "method": "agent",
+  "set": "large",
+  "q": "L5",
+  "rep": 0
+ },
+ "A135": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L9",
+  "rep": 0
+ },
+ "A136": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P1",
+  "rep": 0
+ },
+ "A137": {
+  "method": "rag",
+  "set": "small",
+  "q": "P2",
+  "rep": 0
+ },
+ "A138": {
+  "method": "agent",
+  "set": "small",
+  "q": "L1",
+  "rep": 0
+ },
+ "A139": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L8",
+  "rep": 3
+ },
+ "A140": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P3",
+  "rep": 4
+ },
+ "A141": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P3",
+  "rep": 1
+ },
+ "A142": {
+  "method": "agent",
+  "set": "small",
+  "q": "L7",
+  "rep": 0
+ },
+ "A143": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P3",
+  "rep": 4
+ },
+ "A144": {
+  "method": "paste",
+  "set": "small",
+  "q": "L6",
+  "rep": 0
+ },
+ "A145": {
+  "method": "agent",
+  "set": "large",
+  "q": "P7",
+  "rep": 0
+ },
+ "A146": {
+  "method": "agent",
+  "set": "small",
+  "q": "P5",
+  "rep": 0
+ },
+ "A147": {
+  "method": "rag",
+  "set": "large",
+  "q": "L6",
+  "rep": 0
+ },
+ "A148": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P3",
+  "rep": 1
+ },
+ "A149": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P2",
+  "rep": 0
+ },
+ "A150": {
+  "method": "agent",
+  "set": "small",
+  "q": "P2",
+  "rep": 0
+ },
+ "A151": {
+  "method": "agent",
+  "set": "large",
+  "q": "L8",
+  "rep": 0
+ },
+ "A152": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P2",
+  "rep": 0
+ },
+ "A153": {
+  "method": "rag",
+  "set": "large",
+  "q": "L2",
+  "rep": 0
+ },
+ "A154": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P4",
+  "rep": 0
+ },
+ "A155": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P8",
+  "rep": 1
+ },
+ "A156": {
+  "method": "rag",
+  "set": "small",
+  "q": "L3",
+  "rep": 0
+ },
+ "A157": {
+  "method": "rag",
+  "set": "large",
+  "q": "L8",
+  "rep": 0
+ },
+ "A158": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P8",
+  "rep": 0
+ },
+ "A159": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P3",
+  "rep": 0
+ },
+ "A160": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P5",
+  "rep": 0
+ },
+ "A161": {
+  "method": "rag",
+  "set": "small",
+  "q": "L7",
+  "rep": 0
+ },
+ "A162": {
+  "method": "agent",
+  "set": "large",
+  "q": "P9",
+  "rep": 0
+ },
+ "A163": {
+  "method": "agent",
+  "set": "small",
+  "q": "P7",
+  "rep": 0
+ },
+ "A164": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P2",
+  "rep": 0
+ },
+ "A165": {
+  "method": "paste",
+  "set": "small",
+  "q": "L10",
+  "rep": 0
+ },
+ "A166": {
+  "method": "rag",
+  "set": "small",
+  "q": "P4",
+  "rep": 0
+ },
+ "A167": {
+  "method": "rag",
+  "set": "small",
+  "q": "L9",
+  "rep": 0
+ },
+ "A168": {
+  "method": "agent",
+  "set": "small",
+  "q": "P4",
+  "rep": 0
+ },
+ "A169": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L1",
+  "rep": 0
+ },
+ "A170": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P3",
+  "rep": 2
+ },
+ "A171": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L1",
+  "rep": 0
+ },
+ "A172": {
+  "method": "rag",
+  "set": "large",
+  "q": "L9",
+  "rep": 0
+ },
+ "A173": {
+  "method": "rag",
+  "set": "large",
+  "q": "P6",
+  "rep": 0
+ },
+ "A174": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L4",
+  "rep": 0
+ },
+ "A175": {
+  "method": "agent",
+  "set": "large",
+  "q": "P8",
+  "rep": 0
+ },
+ "A176": {
+  "method": "agent",
+  "set": "small",
+  "q": "P1",
+  "rep": 0
+ },
+ "A177": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P8",
+  "rep": 0
+ },
+ "A178": {
+  "method": "paste",
+  "set": "medium",
+  "q": "L2",
+  "rep": 0
+ },
+ "A179": {
+  "method": "agent",
+  "set": "large",
+  "q": "L6",
+  "rep": 0
+ },
+ "A180": {
+  "method": "rag",
+  "set": "small",
+  "q": "L1",
+  "rep": 0
+ },
+ "A181": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P5",
+  "rep": 0
+ },
+ "A182": {
+  "method": "rag",
+  "set": "medium",
+  "q": "P8",
+  "rep": 4
+ },
+ "A183": {
+  "method": "paste",
+  "set": "small",
+  "q": "L9",
+  "rep": 0
+ },
+ "A184": {
+  "method": "agent",
+  "set": "large",
+  "q": "L7",
+  "rep": 0
+ },
+ "A185": {
+  "method": "agent",
+  "set": "small",
+  "q": "L2",
+  "rep": 0
+ },
+ "A186": {
+  "method": "agent",
+  "set": "medium",
+  "q": "P8",
+  "rep": 2
+ },
+ "A187": {
+  "method": "agent",
+  "set": "medium",
+  "q": "L8",
+  "rep": 0
+ },
+ "A188": {
+  "method": "rag",
+  "set": "small",
+  "q": "P6",
+  "rep": 0
+ },
+ "A189": {
+  "method": "rag",
+  "set": "medium",
+  "q": "L9",
+  "rep": 0
+ },
+ "A190": {
+  "method": "agent",
+  "set": "large",
+  "q": "P6",
+  "rep": 0
+ },
+ "A191": {
+  "method": "paste",
+  "set": "medium",
+  "q": "P7",
+  "rep": 0
+ },
+ "A192": {
+  "method": "rag",
+  "set": "large",
+  "q": "P9",
+  "rep": 0
+ }
+}

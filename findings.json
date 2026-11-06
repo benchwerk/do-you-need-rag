@@ -1,0 +1,1064 @@
+{
+ "study": "009-do-you-need-rag",
+ "machine": "x86-laptop",
+ "model": "claude-sonnet-5-5",
+ "claude_code": "2.1.286",
+ "questions_sha256": "adb22f0b44168d8078fffe9277fcf4c14ef1168a8438ccaecedbbc68ea3e6a73",
+ "sources": {
+  "answers": "results/2026-11-02_x86-laptop_main/raw.jsonl",
+  "paste_large": "results/2026-11-01_x86-laptop_dry/raw.jsonl",
+  "grades": "scoring/scores.json",
+  "search": "results/2026-11-05_x86-laptop_search/search.json"
+ },
+ "run_dates": [
+  "2026-11-02",
+  "2026-11-05"
+ ],
+ "config": {
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "chunk_words": 300,
+  "chunk_overlap": 50,
+  "top_k": 20,
+  "agent_tools": "Read,Grep,Glob",
+  "agent_max_turns": 25,
+  "paste_max_est_tokens": 900000
+ },
+ "sets": {
+  "small": {
+   "files": 10,
+   "words": 58813,
+   "est_tokens_chars_div_4": 100558
+  },
+  "medium": {
+   "files": 100,
+   "words": 187732,
+   "est_tokens_chars_div_4": 343128
+  },
+  "large": {
+   "files": 1000,
+   "words": 1586225,
+   "est_tokens_chars_div_4": 3011870
+  }
+ },
+ "scores_main": {
+  "paste": {
+   "small": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "all": {
+     "correct": 20,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 19,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 19
+    }
+   },
+   "medium": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 9,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 10
+    },
+    "all": {
+     "correct": 19,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 19,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 19
+    }
+   },
+   "large": {
+    "does_not_fit": true
+   },
+   "total": {
+    "correct": 39,
+    "wrong": 1,
+    "not_found": 0,
+    "n": 40
+   },
+   "total_literal": {
+    "correct": 20,
+    "wrong": 0,
+    "not_found": 0,
+    "n": 20
+   },
+   "total_paraphrased": {
+    "correct": 19,
+    "wrong": 1,
+    "not_found": 0,
+    "n": 20
+   },
+   "total_without_P4": {
+    "correct": 38,
+    "wrong": 0,
+    "not_found": 0,
+    "n": 38
+   }
+  },
+  "agent": {
+   "small": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 9,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 10
+    },
+    "all": {
+     "correct": 19,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 19,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 19
+    }
+   },
+   "medium": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 9,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 10
+    },
+    "all": {
+     "correct": 19,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 18,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 19
+    }
+   },
+   "large": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 8,
+     "wrong": 2,
+     "not_found": 0,
+     "n": 10
+    },
+    "all": {
+     "correct": 18,
+     "wrong": 2,
+     "not_found": 0,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 18,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 19
+    }
+   },
+   "total": {
+    "correct": 56,
+    "wrong": 4,
+    "not_found": 0,
+    "n": 60
+   },
+   "total_literal": {
+    "correct": 30,
+    "wrong": 0,
+    "not_found": 0,
+    "n": 30
+   },
+   "total_paraphrased": {
+    "correct": 26,
+    "wrong": 4,
+    "not_found": 0,
+    "n": 30
+   },
+   "total_without_P4": {
+    "correct": 55,
+    "wrong": 2,
+    "not_found": 0,
+    "n": 57
+   }
+  },
+  "rag": {
+   "small": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 8,
+     "wrong": 0,
+     "not_found": 2,
+     "n": 10
+    },
+    "all": {
+     "correct": 18,
+     "wrong": 0,
+     "not_found": 2,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 17,
+     "wrong": 0,
+     "not_found": 2,
+     "n": 19
+    }
+   },
+   "medium": {
+    "literal": {
+     "correct": 10,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 7,
+     "wrong": 1,
+     "not_found": 2,
+     "n": 10
+    },
+    "all": {
+     "correct": 17,
+     "wrong": 1,
+     "not_found": 2,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 16,
+     "wrong": 1,
+     "not_found": 2,
+     "n": 19
+    }
+   },
+   "large": {
+    "literal": {
+     "correct": 9,
+     "wrong": 1,
+     "not_found": 0,
+     "n": 10
+    },
+    "paraphrased": {
+     "correct": 6,
+     "wrong": 2,
+     "not_found": 2,
+     "n": 10
+    },
+    "all": {
+     "correct": 15,
+     "wrong": 3,
+     "not_found": 2,
+     "n": 20
+    },
+    "all_without_P4": {
+     "correct": 15,
+     "wrong": 3,
+     "not_found": 1,
+     "n": 19
+    }
+   },
+   "total": {
+    "correct": 50,
+    "wrong": 4,
+    "not_found": 6,
+    "n": 60
+   },
+   "total_literal": {
+    "correct": 29,
+    "wrong": 1,
+    "not_found": 0,
+    "n": 30
+   },
+   "total_paraphrased": {
+    "correct": 21,
+    "wrong": 3,
+    "not_found": 6,
+    "n": 30
+   },
+   "total_without_P4": {
+    "correct": 48,
+    "wrong": 4,
+    "not_found": 5,
+    "n": 57
+   }
+  }
+ },
+ "misses_main": [
+  [
+   "L3",
+   "rag",
+   "large",
+   "wrong"
+  ],
+  [
+   "P10",
+   "agent",
+   "large",
+   "wrong"
+  ],
+  [
+   "P10",
+   "rag",
+   "large",
+   "wrong"
+  ],
+  [
+   "P10",
+   "rag",
+   "medium",
+   "wrong"
+  ],
+  [
+   "P2",
+   "agent",
+   "medium",
+   "wrong"
+  ],
+  [
+   "P4",
+   "agent",
+   "large",
+   "wrong"
+  ],
+  [
+   "P4",
+   "agent",
+   "small",
+   "wrong"
+  ],
+  [
+   "P4",
+   "paste",
+   "medium",
+   "wrong"
+  ],
+  [
+   "P4",
+   "rag",
+   "large",
+   "not_found"
+  ],
+  [
+   "P5",
+   "rag",
+   "large",
+   "not_found"
+  ],
+  [
+   "P5",
+   "rag",
+   "medium",
+   "not_found"
+  ],
+  [
+   "P5",
+   "rag",
+   "small",
+   "not_found"
+  ],
+  [
+   "P8",
+   "rag",
+   "large",
+   "wrong"
+  ],
+  [
+   "P8",
+   "rag",
+   "medium",
+   "not_found"
+  ],
+  [
+   "P8",
+   "rag",
+   "small",
+   "not_found"
+  ]
+ ],
+ "repeats_100_files": {
+  "agent": {
+   "all": {
+    "correct": 20,
+    "wrong": 0,
+    "not_found": 0,
+    "n": 20
+   },
+   "by_question": {
+    "L4": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "L8": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "P3": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "P8": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    }
+   }
+  },
+  "rag": {
+   "all": {
+    "correct": 15,
+    "wrong": 0,
+    "not_found": 5,
+    "n": 20
+   },
+   "by_question": {
+    "L4": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "L8": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "P3": {
+     "correct": 5,
+     "wrong": 0,
+     "not_found": 0,
+     "n": 5
+    },
+    "P8": {
+     "correct": 0,
+     "wrong": 0,
+     "not_found": 5,
+     "n": 5
+    }
+   }
+  }
+ },
+ "grading": {
+  "items": 192,
+  "hand_graded": 51,
+  "hand_changed": 11,
+  "grader_counts": {
+   "correct": 170,
+   "wrong": 20,
+   "not_found": 2
+  },
+  "final_counts": {
+   "correct": 173,
+   "wrong": 9,
+   "not_found": 10
+  },
+  "script_match_but_final_not_correct": [
+   [
+    "A009",
+    "agent",
+    "large",
+    "P4",
+    0
+   ],
+   [
+    "A058",
+    "rag",
+    "medium",
+    "P8",
+    3
+   ],
+   [
+    "A081",
+    "rag",
+    "large",
+    "P4",
+    0
+   ],
+   [
+    "A102",
+    "rag",
+    "medium",
+    "P8",
+    2
+   ],
+   [
+    "A111",
+    "rag",
+    "medium",
+    "P8",
+    0
+   ],
+   [
+    "A122",
+    "paste",
+    "medium",
+    "P4",
+    0
+   ],
+   [
+    "A155",
+    "rag",
+    "medium",
+    "P8",
+    1
+   ],
+   [
+    "A168",
+    "agent",
+    "small",
+    "P4",
+    0
+   ],
+   [
+    "A182",
+    "rag",
+    "medium",
+    "P8",
+    4
+   ]
+  ],
+  "script_miss_but_final_correct": 2
+ },
+ "cost_main": {
+  "paste": {
+   "small": {
+    "median_input_tokens": 137092.0,
+    "max_input_tokens": 137103,
+    "median_output_tokens": 72.5,
+    "median_seconds": 7.45,
+    "max_seconds": 15.9,
+    "real_over_est_tokens": 1.36
+   },
+   "medium": {
+    "median_input_tokens": 478819.0,
+    "max_input_tokens": 478830,
+    "median_output_tokens": 75.5,
+    "median_seconds": 4.2,
+    "max_seconds": 19.4,
+    "real_over_est_tokens": 1.386
+   },
+   "large": {
+    "does_not_fit": true,
+    "est_tokens_chars_div_4": 3035277,
+    "limit_est_tokens": 900000
+   }
+  },
+  "agent": {
+   "small": {
+    "median_input_tokens": 13664.5,
+    "max_input_tokens": 43661,
+    "median_output_tokens": 226.0,
+    "median_seconds": 8.95,
+    "max_seconds": 22.4,
+    "median_tool_calls": 1.0,
+    "max_tool_calls": 6,
+    "median_turns": 2.0
+   },
+   "medium": {
+    "median_input_tokens": 14493.5,
+    "max_input_tokens": 38869,
+    "median_output_tokens": 256.5,
+    "median_seconds": 7.95,
+    "max_seconds": 16.4,
+    "median_tool_calls": 1.0,
+    "max_tool_calls": 4,
+    "median_turns": 2.0
+   },
+   "large": {
+    "median_input_tokens": 17958.0,
+    "max_input_tokens": 66070,
+    "median_output_tokens": 352.0,
+    "median_seconds": 6.3,
+    "max_seconds": 18.8,
+    "median_tool_calls": 2.0,
+    "max_tool_calls": 9,
+    "median_turns": 3.0
+   }
+  },
+  "rag": {
+   "small": {
+    "median_input_tokens": 15973.5,
+    "max_input_tokens": 16946,
+    "median_output_tokens": 65.0,
+    "median_seconds": 5.2,
+    "max_seconds": 10.0,
+    "median_search_ms_numpy": 0.1,
+    "source_file_retrieved": 20
+   },
+   "medium": {
+    "median_input_tokens": 15879.5,
+    "max_input_tokens": 17446,
+    "median_output_tokens": 70.5,
+    "median_seconds": 3.95,
+    "max_seconds": 7.6,
+    "median_search_ms_numpy": 0.59,
+    "source_file_retrieved": 19
+   },
+   "large": {
+    "median_input_tokens": 16128.0,
+    "max_input_tokens": 18936,
+    "median_output_tokens": 71.0,
+    "median_seconds": 4.2,
+    "max_seconds": 12.3,
+    "median_search_ms_numpy": 3.775,
+    "source_file_retrieved": 17
+   }
+  }
+ },
+ "rag_misses_source_retrieved": [
+  [
+   "L3",
+   "large",
+   "wrong",
+   false
+  ],
+  [
+   "P10",
+   "large",
+   "wrong",
+   false
+  ],
+  [
+   "P10",
+   "medium",
+   "wrong",
+   false
+  ],
+  [
+   "P4",
+   "large",
+   "not_found",
+   true
+  ],
+  [
+   "P5",
+   "large",
+   "not_found",
+   false
+  ],
+  [
+   "P5",
+   "medium",
+   "not_found",
+   true
+  ],
+  [
+   "P5",
+   "small",
+   "not_found",
+   true
+  ],
+  [
+   "P8",
+   "large",
+   "wrong",
+   true
+  ],
+  [
+   "P8",
+   "medium",
+   "not_found",
+   true
+  ],
+  [
+   "P8",
+   "small",
+   "not_found",
+   true
+  ]
+ ],
+ "rag_passage": {
+  "retrieval_matches_logged_files": 60,
+  "of": 60,
+  "passage_in_top_k_and_correct": 50,
+  "passage_in_top_k_and_not_correct": 0,
+  "passage_missing_and_correct": 0,
+  "passage_missing_and_not_correct": 10,
+  "passage_in_top_k_by_set": {
+   "small": {
+    "literal": 10,
+    "paraphrased": 8
+   },
+   "medium": {
+    "literal": 10,
+    "paraphrased": 7
+   },
+   "large": {
+    "literal": 9,
+    "paraphrased": 6
+   }
+  },
+  "best_rank_when_missing": {
+   "P5_small": 28,
+   "P8_small": 28,
+   "P5_medium": 35,
+   "P8_medium": 37,
+   "P10_medium": 75,
+   "L3_large": 43,
+   "P4_large": 35,
+   "P5_large": 111,
+   "P8_large": 157,
+   "P10_large": 641
+  },
+  "best_rank_by_set": {
+   "P5": {
+    "small": 28,
+    "medium": 35,
+    "large": 111
+   },
+   "P8": {
+    "small": 28,
+    "medium": 37,
+    "large": 157
+   },
+   "P10": {
+    "small": 15,
+    "medium": 75,
+    "large": 641
+   },
+   "L3": {
+    "small": 6,
+    "medium": 9,
+    "large": 43
+   },
+   "P4": {
+    "small": 11,
+    "medium": 16,
+    "large": 35
+   }
+  }
+ },
+ "quota_approx": {
+  "paste_small": {
+   "median_five_hour_rise_per_answer": 0.05,
+   "answer_pairs": 18
+  },
+  "paste_medium": {
+   "median_five_hour_rise_per_answer": 0.12,
+   "answer_pairs": 16
+  },
+  "agent_small": {
+   "median_five_hour_rise_per_answer": 0.0,
+   "answer_pairs": 19
+  },
+  "agent_medium": {
+   "median_five_hour_rise_per_answer": 0.0,
+   "answer_pairs": 34
+  },
+  "agent_large": {
+   "median_five_hour_rise_per_answer": 0.0,
+   "answer_pairs": 19
+  },
+  "rag_small": {
+   "median_five_hour_rise_per_answer": 0.01,
+   "answer_pairs": 19
+  },
+  "rag_medium": {
+   "median_five_hour_rise_per_answer": 0.01,
+   "answer_pairs": 34
+  },
+  "rag_large": {
+   "median_five_hour_rise_per_answer": 0.01,
+   "answer_pairs": 19
+  }
+ },
+ "quota_note": "Meter steps are 1%, so 0 means under 1% per answer. The meter is shared with every other use of the account, and blocks that cross a five-hour reset are skipped (negative steps). Seven-day rises cross weekly resets and are not given.",
+ "internal_model_calls": {
+  "claude-haiku-4-5-20251001": {
+   "agent": {
+    "sessions": 76,
+    "of": 76,
+    "median_input_tokens": 955.0,
+    "max_input_tokens": 962,
+    "median_output_tokens": 13.0
+   },
+   "rag": {
+    "sessions": 75,
+    "of": 76,
+    "median_input_tokens": 10410,
+    "max_input_tokens": 11947,
+    "median_output_tokens": 13
+   },
+   "paste": {
+    "sessions": 18,
+    "of": 40,
+    "median_input_tokens": 97503.5,
+    "max_input_tokens": 97511,
+    "median_output_tokens": 13.5
+   }
+  }
+ },
+ "vector_search": {
+  "numpy": {
+   "small": {
+    "chunks": 241,
+    "runs": 5,
+    "median_of_run_medians_ms": 0.024,
+    "max_ms": 0.075,
+    "min_overlap_with_exact": 1.0
+   },
+   "medium": {
+    "chunks": 785,
+    "runs": 5,
+    "median_of_run_medians_ms": 0.045,
+    "max_ms": 0.132,
+    "min_overlap_with_exact": 1.0
+   },
+   "large": {
+    "chunks": 6644,
+    "runs": 5,
+    "median_of_run_medians_ms": 0.371,
+    "max_ms": 0.86,
+    "min_overlap_with_exact": 1.0
+   }
+  },
+  "sqlite-vec": {
+   "small": {
+    "chunks": 241,
+    "runs": 5,
+    "median_of_run_medians_ms": 1.618,
+    "max_ms": 3.037,
+    "min_overlap_with_exact": 1.0,
+    "build_ms": 28.9
+   },
+   "medium": {
+    "chunks": 785,
+    "runs": 5,
+    "median_of_run_medians_ms": 1.713,
+    "max_ms": 2.649,
+    "min_overlap_with_exact": 1.0,
+    "build_ms": 21.8
+   },
+   "large": {
+    "chunks": 6644,
+    "runs": 5,
+    "median_of_run_medians_ms": 11.739,
+    "max_ms": 13.153,
+    "min_overlap_with_exact": 1.0,
+    "build_ms": 129.0
+   }
+  },
+  "qdrant": {
+   "small": {
+    "chunks": 241,
+    "runs": 5,
+    "median_of_run_medians_ms": 44.217,
+    "max_ms": 50.683,
+    "min_overlap_with_exact": 1.0,
+    "server_median_ms": 0.572,
+    "indexed_vectors": 0,
+    "build_ms": 211.3
+   },
+   "medium": {
+    "chunks": 785,
+    "runs": 5,
+    "median_of_run_medians_ms": 44.515,
+    "max_ms": 52.484,
+    "min_overlap_with_exact": 1.0,
+    "server_median_ms": 0.691,
+    "indexed_vectors": 0,
+    "build_ms": 477.2
+   },
+   "large": {
+    "chunks": 6644,
+    "runs": 5,
+    "median_of_run_medians_ms": 44.413,
+    "max_ms": 51.508,
+    "min_overlap_with_exact": 1.0,
+    "server_median_ms": 0.95,
+    "indexed_vectors": 0,
+    "build_ms": 3000.6
+   }
+  }
+ },
+ "demos": {
+  "D1": {
+   "question": "How far in advance do we recommend you send meeting invites?",
+   "answer": "I don't have a policy for your team or organization, and nothing in this session mentions one, so I can't say what \"we\" recommend. If there's an internal guideline, it would be in an employee handbook or wiki, which I can't see from here.\n\nThese are common rules of thumb:\n\n- **Internal, routine meetings:** at least 24 hours ahead, ideally 2-3 business days.\n- **Larger meetings or workshops (5+ people, or ones that need prep):** 1-2 weeks.\n- **External or cross-time-zone meetings:** 1-2 weeks, since scheduling takes more back-and-forth.\n- **Executives or hard-to-schedule attendees:** 2-4 weeks, or whatever their assistants need.\n- **Urgent meetings:** send as soon as possible and flag the urgency in the title or a message.\n\nWhatever the lead time, include an agenda, a clear purpose, and any pre-reading in the invite.\n\nIf you paste your team's guideline here, I can help you summarize it or turn it into a short reminder or template.",
+   "expected_from_handbook": "72 hours (minimum 24 hours)"
+  },
+  "D2_size_check": {
+   "command_powershell": "[int]((Get-ChildItem -File -Recurse | Get-Content -Raw -Encoding UTF8 | Measure-Object -Character).Characters / 4 * 1.4)",
+   "rows": [
+    {
+     "set": "small",
+     "printed": 142275,
+     "real": 137092.0,
+     "over_real_pct": 3.8
+    },
+    {
+     "set": "medium",
+     "printed": 486201,
+     "real": 478819.0,
+     "over_real_pct": 1.5
+    },
+    {
+     "set": "large",
+     "printed": 4276114,
+     "real": null,
+     "over_real_pct": null
+    }
+   ]
+  },
+  "D5_pairs": [
+   {
+    "a": "a call that got taped",
+    "b": "the meeting recording",
+    "cosine": 0.72
+   },
+   {
+    "a": "a call that got taped",
+    "b": "the expense report",
+    "cosine": 0.572
+   },
+   {
+    "a": "too many of us are already away",
+    "b": "PTO capacity has been reached",
+    "cosine": 0.605
+   },
+   {
+    "a": "too many of us are already away",
+    "b": "the renewal date",
+    "cosine": 0.563
+   },
+   {
+    "a": "the secret used to log in",
+    "b": "credentials such as passwords",
+    "cosine": 0.721
+   },
+   {
+    "a": "the secret used to log in",
+    "b": "meeting invites",
+    "cosine": 0.538
+   }
+  ],
+  "D6_P5_large": {
+   "answer_chunk": {
+    "rank": 111,
+    "file": "company__culture__all-remote__meetings.md",
+    "score": 0.61
+   },
+   "twentieth_score": 0.647,
+   "top_5": [
+    {
+     "rank": 1,
+     "file": "communication___index.md",
+     "score": 0.709,
+     "start": "Note also that after a meeting ends, Zoom may take some time to process the recording before it is actually available. The sync to Google Drive happens on the h"
+    },
+    {
+     "rank": 2,
+     "file": "customer-experience__csm__cadence-calls.md",
+     "score": 0.689,
+     "start": "concerns, embrace new information with relevant questions, and anything on the agenda that isn't critical can be delayed until the next cadence call. This relat"
+    },
+    {
+     "rank": 3,
+     "file": "support__on-call.md",
+     "score": 0.689,
+     "start": "through the code here and make sense of it\". #### Take a break Consider taking breaks during emergency calls. Taking a break can help you to feel more refreshed"
+    },
+    {
+     "rank": 4,
+     "file": "communication___index.md",
+     "score": 0.683,
+     "start": "1. Sometimes it's better to *not* have a video call. Consider these tradeoffs: - It is difficult (or impossible) to multi-task in a video call. - It may be more"
+    },
+    {
+     "rank": 5,
+     "file": "support__on-call.md",
+     "score": 0.681,
+     "start": "During an emergency [taking a break](#take-a-break), can be very beneficial for results for our customers as it permits the incoming CEOC to get up to speed. Th"
+    }
+   ]
+  },
+  "D7_one_search": {
+   "numpy": {
+    "ms": 0.817,
+    "top5": [
+     5720,
+     5721,
+     3687,
+     5705,
+     5707
+    ]
+   },
+   "sqlite-vec": {
+    "ms": 11.06,
+    "top5": [
+     5720,
+     5721,
+     3687,
+     5705,
+     5707
+    ]
+   },
+   "qdrant": {
+    "round_trip_ms": 54.757,
+    "server_ms": 7.12,
+    "top5": [
+     5720,
+     5721,
+     3687,
+     5705,
+     5707
+    ]
+   }
+  }
+ }
+}

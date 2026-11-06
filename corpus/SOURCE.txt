@@ -1,0 +1,6 @@
+Source: GitLab Handbook, https://gitlab.com/gitlab-com/content-sites/handbook
+Commit: 52419353ea755a1ac823553385f8636ff2fcde17 (2026-10-30T15:12:09-07:00)
+SHA-256 of the downloaded archive: 08bb11d08aaf8d8bc576c8e977f0b8bcac702e1fcc18010c7b9a1b520a547803
+Licence: CC BY-SA 4.0, per GitLab: https://about.gitlab.com/blog/our-handbook-is-open-source-heres-why/
+(the repository's LICENSE file covers the GitLab software, not the handbook text).
+Handbook text in this repository (transcripts, excerpts, source sentences) is (c) GitLab, CC BY-SA 4.0.

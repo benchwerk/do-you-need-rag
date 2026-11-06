@@ -1,0 +1,9 @@
+{
+ "question": "How far in advance do we recommend you send meeting invites?",
+ "prompt": "the question alone, no documents, no tools",
+ "transcript": "D1-no-documents_2026-11-06T18-34-58.jsonl",
+ "rc": 0,
+ "answer": "I don't have a policy on this in my context, so I'll check whether the files in your working directory cover it.\n\n\n<invoke name=\"Grep\">\n<parameter name=\"pattern\">(?i)(meeting invite|invitation|invites?).{0,80}(advance|notice|ahead)|(advance|notice|ahead).{0,80}(meeting invite|invitation|invites?)</parameter>\n<parameter name=\"path\">C:\\ragdemo\\sets</parameter>\n<parameter name=\"output_mode\">content</parameter>\n<parameter name=\"-n\">true</parameter>\n</invoke>\n\n<invoke name=\"Glob\">\n<parameter name=\"pattern\">**/*</parameter>\n<parameter name=\"path\">C:\\ragdemo\\sets</parameter>\n</invoke>",
+ "is_error": false,
+ "expected_from_handbook": "72 hours (minimum 24 hours)"
+}

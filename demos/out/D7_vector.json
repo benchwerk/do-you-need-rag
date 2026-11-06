@@ -1,0 +1,45 @@
+{
+ "question": "What is the minimum password length for systems where a password can be configured?",
+ "chunks": 6644,
+ "files": [
+  "security__policies_and_standards__password-standard.md",
+  "security__policies_and_standards__password-standard.md",
+  "finance__procurement__vendor-guidelines__vendor-security-addendum.md",
+  "security__policies_and_standards__cryptographic-standard.md",
+  "security__policies_and_standards__cryptographic-standard.md"
+ ],
+ "engines": {
+  "numpy": {
+   "ms": 0.817,
+   "top5": [
+    5720,
+    5721,
+    3687,
+    5705,
+    5707
+   ]
+  },
+  "sqlite-vec": {
+   "ms": 11.06,
+   "top5": [
+    5720,
+    5721,
+    3687,
+    5705,
+    5707
+   ]
+  },
+  "qdrant": {
+   "round_trip_ms": 54.757,
+   "server_ms": 7.12,
+   "top5": [
+    5720,
+    5721,
+    3687,
+    5705,
+    5707
+   ]
+  }
+ },
+ "note": "one search, for the screen; the measured timings are in results/2026-11-05_x86-laptop_search"
+}

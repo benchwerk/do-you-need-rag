@@ -1,0 +1,12 @@
+The data and documents in this repository (everything except the code in bench/*.py, analysis/ and demos/demos.py) are
+licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+Copyright (c) 2026 benchwerk. Contains text from the GitLab Handbook, (c) GitLab, CC BY-SA 4.0 (see corpus/SOURCE.txt):
+the transcripts in results/*/streams/ and demos/out/, the answers in results/*/raw.jsonl, the source sentences in
+bench/questions.json and scoring/sheet.json, and the excerpts in findings.json and demos/out/. Because of that text, the
+data as a whole is shared under the same licence.
+
+You may share and adapt them for any purpose, provided you give appropriate credit, indicate if changes were made, and
+share your adaptations under the same licence.
+
+Full licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode

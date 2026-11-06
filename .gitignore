@@ -1,0 +1,23 @@
+# Allow-list: nothing is published unless it is named here.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/LICENSE-DATA
+!/methodology.md
+!/prediction.md
+!/NUANCES.md
+!/editorial_log.md
+!/findings.json
+!/bench/
+!/analysis/
+!/scoring/
+!/corpus/
+!/demos/
+!/results/
+# never, anywhere
+.env
+*.key
+*.pem
+__pycache__/
