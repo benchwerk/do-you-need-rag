@@ -1602,5 +1602,30 @@
     "y": 0.0958
    }
   ]
+ },
+ "top20_P5_small": {
+  "question": "After a call that got taped, how quickly should people be able to watch it?",
+  "chunk_points": [
+   45,
+   209,
+   42,
+   217,
+   46,
+   43,
+   85,
+   207,
+   48,
+   49,
+   220,
+   208,
+   106,
+   84,
+   216,
+   232,
+   94,
+   34,
+   114,
+   107
+  ]
  }
 }

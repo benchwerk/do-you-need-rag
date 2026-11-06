@@ -80,7 +80,13 @@ def embed():
     xy = X @ vt[:2].T
     pts = [dict(kind="chunk", file=chunks[i]["file"], x=round(float(xy[n, 0]), 4), y=round(float(xy[n, 1]), 4)) for n, i in enumerate(keep)]
     pts += [dict(kind="question", q=q, x=round(float(xy[len(keep) + n, 0]), 4), y=round(float(xy[len(keep) + n, 1]), 4)) for n, q in enumerate(QS)]
-    save("D5_embed.json", {"model": CFG["embedding_model"], "pairs": pairs and sims, "map_2d": {"method": "PCA of chunk and question vectors, 10-file set", "points": pts}})
+    # RAG's real top 20 for the taped-call question in this set (full 384-number cosine, as bench/run.py), as indices into
+    # the map's chunk points: what the retrieval scene lights up (a circle on the 2-D map would pick different chunks)
+    p5 = list(QS).index("P5")
+    top = [int(i) for i in np.argsort(-(vec[keep] @ qv[p5]))[:CFG["top_k"]]]
+    save("D5_embed.json", {"model": CFG["embedding_model"], "pairs": pairs and sims,
+                           "map_2d": {"method": "PCA of chunk and question vectors, 10-file set", "points": pts},
+                           "top20_P5_small": {"question": QS["P5"]["question"], "chunk_points": top}})
 
 
 def rag_miss(q="P5", s="large"):
